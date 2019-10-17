@@ -4,6 +4,7 @@ header{
 .nav-list{
 	line-height: 27px;
 	padding-top: 11px;
+	font-family: Open Sans;
 }
 nav{
 	float:left;

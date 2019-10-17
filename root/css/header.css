@@ -1,0 +1,48 @@
+header{
+	background-color: #010135;
+}
+.nav-list{
+	line-height: 27px;
+	padding-top: 11px;
+}
+nav{
+	float:left;
+}
+nav li{
+	font-size: 18px;
+	float: left;
+}
+nav a{
+	margin-right: 63px;
+}
+.sing-buttons{
+	float: right;
+	font-size: 20px;
+	line-height: 24px;
+
+}
+.sing-buttons div{
+	float: left;
+	font-family: Rosario;
+}
+.navigator{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.button-sing-in{
+	background: #010135;
+	border: 1px solid #FFFFFF;	
+	padding: 8px 21px 8px 21px;
+	margin-right: 24px;
+}
+.button-sing-up{
+	color: #010135;
+	background: #FFFFFF;	
+	padding: 8px 18px 8px 18px;
+	color: #010135;
+}
+.button-sing-in,.button-sing-up
+{
+	border-radius: 30px;
+}

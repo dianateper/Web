@@ -1,0 +1,22 @@
+footer{
+	background-color: #010135;
+	padding-top: 34px;
+	padding-bottom: 93px;
+}
+
+.charter{
+	margin-left: 175px;
+	float: left;
+}
+.contact{
+	float: right;
+	text-align: right;
+}
+.charter li, .contact li{
+	font-size: 18px;
+	line-height: 27px;
+	font-family: Open Sans;
+}
+footer h5{
+	margin-bottom: 28px;
+}

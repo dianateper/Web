@@ -3,7 +3,7 @@
 </head>
 <body>
 	<header>
-		<div class="container row  navigator">
+		<div class="mycontainer myrow  navigator">
 			<nav>
 				<ul>
 				<li class="logo"><a href="">YC</a></li>

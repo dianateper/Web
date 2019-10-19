@@ -2,13 +2,13 @@
 	box-sizing: border-box;
 }
 
-.row:after{
+.myrow:after{
 	content: "";
 	display: block;
 	clear: both;
 }
 
-.container{
+.mycontainer{
 	width: 940px;
 	margin:0 auto;
 }
@@ -31,3 +31,14 @@ h5{
 	font-family: Montserrat;
 }
 
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 61px;
+	text-align: center;
+	color: #010135;
+	text-transform: uppercase;
+}

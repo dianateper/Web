@@ -4,7 +4,7 @@
 
 <body>
 	<footer>
-		<div class="container row">
+		<div class="mycontainer myrow">
 			<div class="logo"><a href="">YC</a></div>
 			<div class="charter">
 				<h5>Yahct charter</h5>

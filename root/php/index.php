@@ -6,6 +6,8 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		
+
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans&display=swap" rel="stylesheet">
@@ -28,17 +30,16 @@
 
 
 	<!--------------------------------------SLIDER------------------------------------------------------------->
-	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	 	<ol class="carousel-indicators">
-		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 		</ol>
   		<div class="carousel-inner">
 		    <div class="carousel-item active">
 		        <img src="..\img\mainSlider\Group1.png" class="d-block w-100" alt="...">
-
 			        <div class="carousel-caption d-none d-md-block">
 			      	<div class="mycontainer">
 				        <p>Eget vehicula magna scelerisque nunc arcu.</p>
@@ -72,15 +73,17 @@
 		    </div>
 		    </div>
   		</div>
-		  </div>
-	    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-	      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	      <span class="sr-only">Previous</span>
-	    </a>
-	    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-   		</a>
+		</div>
+		<div class="carousel-control">
+		    <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+		      <span aria-hidden="true"><img src="..\img\arrow_left.png" alt=""></span>
+		      <span class="sr-only">Previous</span>
+		    </a>
+		    <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+			   <span aria-hidden="true"><img src="..\img\arrow_right.png" alt=""></span>
+			    <span class="sr-only">Next</span>
+	   		</a>
+   		</div>
    	</div>
 		<!--------------------------------------END SLIDER------------------------------------------------------------->
 		<!-----------------------------------ARTICLE SECTION------------------------------------------------------------->
@@ -190,17 +193,9 @@
 	<!------------------------------------------------------SLIDER SCRIPT-------------------------------------------------------->
 	<script>
 		$(document).ready(function(){
-		    $("#carouselExampleSlidesOnly").carousel({
-		        interval : 1000000
+		    $("#carousel-example-generic").carousel({
+		        interval : 2000
     		});
-
-    		$('.carousel-control-prev').click(function() {
-				$('#carouselExampleSlidesOnly').carousel('prev');
-			});
-
-			$('.carousel-control-next').click(function() {
-				$('#carouselExampleSlidesOnly').carousel('next');
-			});			
 		});
 		 
 	</script>

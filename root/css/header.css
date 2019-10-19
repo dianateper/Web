@@ -32,16 +32,21 @@ nav a{
 }
 
 .button-sing-in{
-	background: #010135;
-	border: 1px solid #FFFFFF;	
 	padding: 8px 21px 8px 21px;
 	margin-right: 24px;
 }
+.button-sing-in:hover,.button-sing-up{
+	background: #FFFFFF;
+	border: 1px solid #010135;	
+	color: #010135;
+}
 .button-sing-up{
-	color: #010135;
-	background: #FFFFFF;	
 	padding: 8px 18px 8px 18px;
-	color: #010135;
+}
+.button-sing-up:hover, .button-sing-in{
+	background: #010135;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;	
 }
 .button-sing-in,.button-sing-up
 {

@@ -1,3 +1,18 @@
+a:hover{
+	color: #A8A8A8;
+	text-decoration: none;
+}
+p{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+}
+h2{
+	color: #010135;
+}
+/*-------------------------------------------------SLIDER-------------------------------------------------------------------------*/
 .carousel-indicators li {
   width: 10px;
   height: 10px;
@@ -50,7 +65,8 @@
 	margin-bottom: 520px;
 	color: #010135;
 }
-
+/*----------------------------------------------END SLIDER-------------------------------------------------------------------------*/
+/*-------------------------------------------------ARTICLE-------------------------------------------------------------------------*/
 article{
 	width: 33%;
 	float: left;
@@ -74,11 +90,8 @@ article h5{
 	text-align: center;
 }
 
-h2{
-	color: #010135;
-	
-}
-
+/*-----------------------------------------------END ARTICLE-------------------------------------------------------------------------*/
+/*----------------------------------------------PHOTO SECTION------------------------------------------------------------------------*/
 .photo-section h2{
 	color: #FFFFFF;
 
@@ -87,14 +100,15 @@ h2{
 	background-color: #0098B6;
 }
 
+.map-photo{
+	height: 608px;
+	background-color: #0098B6;
+}
+/*----------------------------------------------END PHOTO SECTION--------------------------------------------------------------------*/
+/*-------------------------------------------------VIDEO SECTION---------------------------------------------------------------------*/
 .video-section p{
 	margin-top: 80px;
 	margin-bottom: 245px;
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 27px;
 	text-align: center;
 	color: #A8A8A8;
 }
@@ -108,3 +122,73 @@ h2{
 	color: #0098B6;
 	width: 90%;;
 }
+
+video{
+	margin-bottom: 250px;
+}
+/*-------------------------------------------------END VIDEO SECTION-----------------------------------------------------------------*/
+/*-------------------------------------------------MAP SECTION-----------------------------------------------------------------------*/
+.map-section{
+	background-color: rgba(3, 109, 125, 0.4);
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+.map-section h2,.map-section p{
+	color: #FFFFFF;
+	width: 220px;
+	text-align: left;
+}
+.map-section h2{
+	margin-bottom: 50px;
+}
+
+.map-section-text{
+	float: left;
+	margin-left: 30px;
+}
+.map{
+	float: left;
+	width: 670px;
+	height: 643px;
+	background-color: #FFFFFF;
+}
+
+/*-------------------------------------------------END MAP SECTION------------------------------------------------------------------*/
+/*-------------------------------------------------WATCH SECTION---------------------------------------------------------------------*/
+.orange-rectangle{
+	height: 100px;
+	background-color:  #F8E0C2;
+	z-index: -1;
+	position: relative;
+	top: 200px;
+}
+
+
+.watch-section{
+	padding-bottom: 200px;
+}
+.watch-section h3{
+	margin-top: 158px;
+}
+
+.watch-section p{
+	float: left;
+	margin-top: 20px;
+	color: #A8A8A8;
+}
+.watch-section a{
+	float: right;
+	padding:10 39 11 39px;
+	background: #036D7D;
+	border-radius: 50px;
+	font-weight: bold;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+}
+
+/*-------------------------------------------------END WATCH SECTION-----------------------------------------------------------------*/

@@ -86,7 +86,6 @@
 		<!-----------------------------------ARTICLE SECTION------------------------------------------------------------->
 		<div>
 			<div class="mycontainer">
-				
 				<div class="myrow">
 					<article>
 						<h5>A wealth of knowledge to enhance your experience</h4>
@@ -101,7 +100,9 @@
 						<p>You can search for yachts using the specialised search feature below or you can contact us to let us know your precise requirements.</p>
 					</article>
 				</div>
-				<div><h2>Yachts</h2></div>
+				<div>
+					<h2>Yachts</h2>
+				</div>
 			</div>
 		</div>
 	<!-----------------------------------END ARTICLE SECTION------------------------------------------------------------->
@@ -111,7 +112,7 @@
 			<div class="mycontainer">
 				<h2>For charter</h2>
 			</div>
-			<div>
+			<div class="map-photo">
 				<!--USINGMAP-->
 			</div>
 		</div>
@@ -127,17 +128,66 @@
 
 			<h5>Enjoy</h5>
 			<hr>
+			<video controls poster="..\img\video.png">
+				<source src="" type="video/mp4">
+  				<source src="" type="video/webm">
+		    </video>
+		</div>
+
+
+	</div>
+
+	<!------------------------------------------------------END VIDEO SECTION---------------------------------------------------->
+	<!-------------------------------------------------MAP SECTION--------------------------------------------------------------->
+
+	<div class="map-section">
+		<div class="mycontainer myrow">
+			<div class="map">
+				
+			</div>
+
+			<div class="map-section-text">
+				<h2>Where we are</h2>
+				<p>04071</p>
+				<p>Kyiv</p>
+				<p>Naberezhno-Lugova St., 8</p>
+				<p>50.477829, 30.508214</p>
+			</div>
 		</div>
 	</div>
 
-	<!----------------------------------------------END VIDEO SECTION---------------------------------------------------->
-	<!--------------------------------------------FOOTER----------------------------------------------------------------->
+
+	<!-----------------------------------------------END MAP SECTION------------------------------------------------------------->
+
+	<!--------------------------------------------------WATCH SECTION------------------------------------------------------------>
+
+	<div class="watch-section">
+		<div>
+			<div class="orange-rectangle">
+			</div>
+			<div class="mycontainer">
+				<h3>Still here?</h3>
+				<div class="myrow">
+					<div class="watch-text">
+						<p>Just watch at whole list of our yachts and make a choice.</p>
+					</div>
+					<div class="watch-button">
+						<a href="">Watch it!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!----------------------------------------------END WATCH SECTION------------------------------------------------------------>
+
+	<!----------------------------------------------------FOOTER----------------------------------------------------------------->
 		<div>
 			<?php include 'footer.php';?>	
 		</div>
 
 
-	<!----------------------------------------------SLIDER SCRIPT-------------------------------------------------------->
+	<!------------------------------------------------------SLIDER SCRIPT-------------------------------------------------------->
 	<script>
 		$(document).ready(function(){
 		    $("#carouselExampleSlidesOnly").carousel({

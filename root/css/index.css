@@ -45,12 +45,17 @@ h2{
 	font-size: 70px;
 	line-height: 85px;
 	letter-spacing: -0.05em;
-  	text-align: left;
   	text-transform: uppercase;
-  	margin-bottom: 420px;
   	top: auto;
+  	
 }
 
+.carousel-inner .carousel-item:nth-of-type(1) p{
+	text-align: right;
+	float: right;
+	width: 776px;
+	margin-bottom: 430px;
+}
 .carousel-inner .carousel-item:nth-of-type(2) p{
 	margin-bottom: 30px;
 	text-align: right;
@@ -75,12 +80,19 @@ h2{
 	}
 /*----------------------------------------------END SLIDER-------------------------------------------------------------------------*/
 /*-------------------------------------------------ARTICLE-------------------------------------------------------------------------*/
-article{
-	width: 33%;
-	float: left;
+
+.article-section{
+	display: flex;
+	flex-flow: row wrap;
 	margin-top: 80px;
+	flex-direction: row;
+	 justify-content: space-between;
 }
 
+article{
+	max-width: 370px;
+
+}
 article p{
 	margin-top: 20px;
 	margin-bottom: 200px;
@@ -172,6 +184,10 @@ video{
 	top: 200px;
 }
 
+.flex-section-watch{
+	display: flex;
+	justify-content: space-between;
+}
 
 .watch-section{
 	padding-bottom: 200px;
@@ -179,7 +195,9 @@ video{
 .watch-section h3{
 	margin-top: 158px;
 }
-
+.watch-button{
+	margin-left: auto;
+}
 .watch-section p{
 	float: left;
 	margin-top: 20px;

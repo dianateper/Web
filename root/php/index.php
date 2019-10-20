@@ -89,7 +89,7 @@
 		<!-----------------------------------ARTICLE SECTION------------------------------------------------------------->
 		<div>
 			<div class="mycontainer">
-				<div class="myrow">
+				<div class="myrow article-section">
 					<article>
 						<h5>A wealth of knowledge to enhance your experience</h4>
 						<p>A yacht charter offers life-affirming adventure. By accommodating both your preferences and requirements, no detail is left to chance.</p>
@@ -170,7 +170,7 @@
 			</div>
 			<div class="mycontainer">
 				<h3>Still here?</h3>
-				<div class="myrow">
+				<div class="myrow flex-section-watch">
 					<div class="watch-text">
 						<p>Just watch at whole list of our yachts and make a choice.</p>
 					</div>
@@ -194,7 +194,7 @@
 	<script>
 		$(document).ready(function(){
 		    $("#carousel-example-generic").carousel({
-		        interval : 2000
+		        interval : 10000
     		});
 		});
 		 

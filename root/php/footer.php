@@ -4,7 +4,7 @@
 
 <body>
 	<footer>
-		<div class="mycontainer myrow">
+		<div class="mycontainer myrow footer-flex">
 			<div class="logo"><a href="">YC</a></div>
 			<div class="charter">
 				<h5>Yahct charter</h5>

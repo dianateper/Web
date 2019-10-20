@@ -2,14 +2,18 @@ footer{
 	background-color: #010135;
 	padding-top: 34px;
 	padding-bottom: 93px;
+	
+}
+.footer-flex{
+	display: flex;
 }
 
 .charter{
 	margin-left: 175px;
-	float: left;
+	
 }
 .contact{
-	float: right;
+	margin-left: auto;
 	text-align: right;
 }
 .charter li, .contact li{

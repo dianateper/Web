@@ -16,10 +16,10 @@
 			<div class="contact">
 				<h5>Contact us</h5>
 				<ul>
-					<li><a href="">viktoria.shyyan@gmail.com</a></li>
-					<li><a href="">dianateper333@gmail.com</a></li>
-					<li><a href="">dlymar200018@gmail.com</a></li>
-					<li><a href="">anka13084@gmail.com</a></li>
+					<li><a href = "mailto: viktoria.shyyan@gmail.com">viktoria.shyyan@gmail.com</a></li>
+					<li><a href = "mailto: dianateper333@gmail.com">dianateper333@gmail.com</a></li>
+					<li><a href = "mailto: dlymar200018@gmail.com">dlymar200018@gmail.com</a></li>
+					<li><a href = "mailto: anka13084@gmail.com">anka13084@gmail.com</a></li>
 				</ul>
 			</div>
 		</div>

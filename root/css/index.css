@@ -124,8 +124,12 @@ article h5{
 	position: relative;
 	background-color: #0098B6;
 }
-.img-map{
+#img-map{
 	 width: 100%; object-fit: contain;
+}
+#help-map{
+	position: absolute;
+	z-index: 2;
 }
 .map-photo p{
 	color: #FFFFFF;
@@ -151,15 +155,17 @@ article h5{
 
 .use-map-Princess{
 	border:1px solid #FFFFFF;
-	width: 478px;
-	height: 245px;
+	width: 494px;
+	height: 259px;
 	position: absolute;
-	top: 314px;
-	left:15px;
+	top: 307px;
+	left: 8px;
+
+	z-index: -1;
 	
 }
 .use-map-Princess p{
-	 padding-top: 208px;
+	 padding-top: 228px;
 	 padding-left: 147px;
 }
 
@@ -170,6 +176,8 @@ article h5{
 	position: absolute;
 	top: 395px;
 	left:826px;
+
+	z-index: -1;
 }
 .use-map-Marquis p{
 	padding-top: 142px;
@@ -182,6 +190,8 @@ article h5{
 	position: absolute;
 	top: 7px;
 	left:235px;
+
+	z-index: -1;
 }
 .use-map-Californian p{
 	padding-top: 0px;
@@ -194,6 +204,8 @@ article h5{
 	position: absolute;
 	top: 395px;
 	left:520px;
+
+	z-index: -1;
 }
 .use-map-Lazzara p{
 	padding-left: 85px;
@@ -206,6 +218,8 @@ article h5{
 	position: absolute;
 	top: 152px;
 	left:236px;
+
+	z-index: -1;
 }
 
 .use-map-SeaRay p{
@@ -219,6 +233,8 @@ article h5{
 	position: absolute;
 	top: 7px;
 	left:8px;
+
+	z-index: -1;
 }
 .use-map-Cruisers p{
 	padding-left: 45px;
@@ -230,6 +246,8 @@ article h5{
 	position: absolute;
 	top: 7px;
 	left:972px;
+
+	z-index: -1;
 }
 .use-map-Marinette p{
 	padding-left: 28px;
@@ -241,6 +259,7 @@ article h5{
 	position: absolute;
 	top: 7px;
 	left:519px;
+	z-index: -1;
 }
 .use-map-Cruisers-new p{
 	padding-left: 150px;
@@ -251,6 +270,7 @@ article h5{
 	position: absolute;
 	top: 312px;
 	left:520px;
+	z-index: 4;
 }
 
 
@@ -299,11 +319,10 @@ video{
 	float: left;
 	margin-left: 30px;
 }
-.map{
+#map{
 	float: left;
 	width: 670px;
 	height: 643px;
-	background-color: #FFFFFF;
 }
 
 /*-------------------------------------------------END MAP SECTION------------------------------------------------------------------*/

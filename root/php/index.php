@@ -117,18 +117,21 @@
 			<div class="map-photo">
 				
 				<div>
-					<img src="..\img\index\Group5.png"  alt="Yacht" usemap="#yachtmap" class="img-map">
+					<img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" usemap="#yachtmap" id="help-map">
+					<img src="..\img\index\Group5.png"  id="img-map">
 					
 					<map name="yachtmap">
-					  	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
-					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
-					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
-					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
-					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
-					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
-					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
-					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
+					  	<area shape="rect" coords="0,0,228,265" href="#" alt="Cruisers" id="Cruisers">
+					 	<area shape="rect" coords="228,0,512,128" href="#" alt="Californian" id="Californian">
+					 	<area shape="rect" coords="512,0,965,265" href="#" alt="Cruisers" id="Cruisers-new">
+					 	<area shape="rect" coords="965,0,1262,344" href="#" alt="Marinette" id="Marinette">
+					 	<area shape="rect" coords="228,128,512,265" href="#" alt="Sun" id="SeaRay">
+					 	<area shape="rect" coords="0,265,512,510" href="#" alt="Princess" id="Princess">
+					 	<area shape="rect" coords="512,343,817,510" href="#" alt="Lazzara" id="Lazzara">
+					 	<area shape="rect" coords="816,343,1169,510" href="#" alt="Marquis" id="Marquis">
 					</map>
+
+
 				</div>
 
 				<div class="use-map-link myrow">
@@ -195,7 +198,7 @@
 
 	<div class="map-section">
 		<div class="mycontainer myrow">
-			<div class="map">
+			<div id="map">
 				
 			</div>
 
@@ -257,11 +260,200 @@
     		 	$(".use-map-text").css("border","none");
     		});
 
+    		$("#Cruisers").mouseenter(function(){
+    			$('.use-map-Cruisers').css("z-index","1");
+    		});
+
+    		$("#Cruisers").mouseleave(function(){
+    			$('.use-map-Cruisers').css("z-index","-1");
+    		});
+
+    		$("#Princess").mouseenter(function(){
+    			$('.use-map-Princess').css("z-index","1");
+    		});
+
+    		$("#Princess").mouseleave(function(){
+    			$('.use-map-Princess').css("z-index","-1");
+    		});
+
+    		$("#Marquis").mouseenter(function(){
+    			$('.use-map-Marquis').css("z-index","1");
+    		});
+
+    		$("#Marquis").mouseleave(function(){
+    			$('.use-map-Marquis').css("z-index","-1");
+    		});
+
+    		$("#Californian").mouseenter(function(){
+    			$('.use-map-Californian').css("z-index","1");
+    		});
+
+    		$("#Californian").mouseleave(function(){
+    			$('.use-map-Californian').css("z-index","-1");
+    		});
+
+
+    		$("#Lazzara").mouseenter(function(){
+    			$('.use-map-Lazzara').css("z-index","1");
+    		});
+
+    		$("#Lazzara").mouseleave(function(){
+    			$('.use-map-Lazzara').css("z-index","-1");
+    		});
+
+    		$("#SeaRay").mouseenter(function(){
+    			$('.use-map-SeaRay').css("z-index","1");
+    		});
+
+    		$("#SeaRay").mouseleave(function(){
+    			$('.use-map-SeaRay').css("z-index","-1");
+    		});
+
+
+    		$("#Marinette").mouseenter(function(){
+    			$('.use-map-Marinette').css("z-index","1");
+    		});
+
+    		$("#Marinette").mouseleave(function(){
+    			$('.use-map-Marinette').css("z-index","-1");
+    		});
+
+
+
+    		$("#Cruisers-new").mouseenter(function(){
+    			$('.use-map-Cruisers-new').css("z-index","1");
+    		});
+
+    		$("#Cruisers-new").mouseleave(function(){
+    			$('.use-map-Cruisers-new').css("z-index","-1");
+    		});
+
+    		$(document).ready(function(){
+	    		var image_map= document.getElementById('img-map');	
+				var width = image_map.naturalWidth;
+				var height = image_map.naturalHeight;
+
+				console.log(width + " " + height);
+				$('#help-map').css('width',width);
+				$('#help-map').css('height',height);
+    		});
+    	
 		});
 
 		
 	</script>
 	<!-------------------------------------------------END SLIDER SCRIPT-------------------------------------------------------->
+
+	<script>
+		function initMap(){
+			var pos = {lat: 50.481074, lng:30.515014};
+			var opt = {
+				center: {lat: 50.481074, lng:30.515014 },
+				zoom: 12,
+				  styles: [
+		            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+		            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+		            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+		            {
+		              featureType: 'administrative.locality',
+		              elementType: 'labels.text.fill',
+		              stylers: [{color: '#d59563'}]
+		            },
+		            {
+		              featureType: 'poi',
+		              elementType: 'labels.text.fill',
+		              stylers: [{color: '#d59563'}]
+		            },
+		            {
+		              featureType: 'poi.park',
+		              elementType: 'geometry',
+		              stylers: [{color: '#263c3f'}]
+		            },
+		            {
+		              featureType: 'poi.park',
+		              elementType: 'labels.text.fill',
+		              stylers: [{color: '#6b9a76'}]
+		            },
+		            {
+		              featureType: 'road',
+		              elementType: 'geometry',
+		              stylers: [{color: '#38414e'}]
+		            },
+		            {
+		              featureType: 'road',
+		              elementType: 'geometry.stroke',
+		              stylers: [{color: '#212a37'}]
+		            },
+		            {
+		              featureType: 'road',
+		              elementType: 'labels.text.fill',
+		              stylers: [{color: '#9ca5b3'}]
+		            },
+		            {
+		              featureType: 'road.highway',
+		              elementType: 'geometry',
+		              stylers: [{color: '#746855'}]
+		            },
+		            {
+		              featureType: 'road.highway',
+		              elementType: 'geometry.stroke',
+		              stylers: [{color: '#1f2835'}]
+		            },
+		            {
+		              featureType: 'road.highway',
+		              elementType: 'labels.text.fill',
+		              stylers: [{color: '#f3d19c'}]
+		            },
+		            {
+		              featureType: 'transit',
+		              elementType: 'geometry',
+		              stylers: [{color: '#2f3948'}]
+		            },
+		            {
+		              featureType: 'transit.station',
+		              elementType: 'labels.text.fill',
+		              stylers: [{color: '#d59563'}]
+		            },
+		            {
+		              featureType: 'water',
+		              elementType: 'geometry',
+		              stylers: [{color: '#17263c'}]
+		            },
+		            {
+		              featureType: 'water',
+		              elementType: 'labels.text.fill',
+		              stylers: [{color: '#515c6d'}]
+		            },
+		            {
+		              featureType: 'water',
+		              elementType: 'labels.text.stroke',
+		              stylers: [{color: '#17263c'}]
+		            }
+		          ]
+			};
+
+
+			var myMap  = new google.maps.Map(document.getElementById("map"),opt);
+
+			var marker = new google.maps.Marker({
+				position: pos,
+				map: myMap,
+				title: "Order yacht 'TEPERDA'",
+				icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+			});
+
+			var info = new google.maps.InfoWindow({
+				content: '<h3>My Place</h3><p>Description</p>'
+			});
+
+			marker.addListener("click", function(){
+				info.open(myMap, marker);
+			});
+		}
+	</script>
+
+	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbI_KGlqHrfnyXIvwKXQ2u1GZs1HGG48Y&callback=initMap"
+    async defer></script>
 </body>
 
 

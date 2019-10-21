@@ -121,9 +121,140 @@ article h5{
 }
 
 .map-photo{
-	height: 608px;
+	position: relative;
 	background-color: #0098B6;
 }
+.img-map{
+	 width: 100%; object-fit: contain;
+}
+.map-photo p{
+	color: #FFFFFF;
+
+}
+.use-map-arrow{
+	border: 1px solid #FFFFFF;
+	width: 75px;
+	height:65px;
+	padding-top: 17px;
+	padding-left: 13px;
+	float: left;
+}
+
+.use-map-text{
+	width: 340px;
+ 	text-align: center;
+ 	padding-top: 5px;
+ 	padding-bottom: 6px;
+ 	float: left;
+ 	margin-right: 20px;
+}
+
+.use-map-Princess{
+	border:1px solid #FFFFFF;
+	width: 478px;
+	height: 245px;
+	position: absolute;
+	top: 314px;
+	left:15px;
+	
+}
+.use-map-Princess p{
+	 padding-top: 208px;
+	 padding-left: 147px;
+}
+
+.use-map-Marquis{
+	border:1px solid #FFFFFF;
+	width: 337px;
+	height: 171px;
+	position: absolute;
+	top: 395px;
+	left:826px;
+}
+.use-map-Marquis p{
+	padding-top: 142px;
+	padding-left: 110px;
+}
+.use-map-Californian{
+	border:1px solid #FFFFFF;
+	width: 268px;
+	height: 130px;
+	position: absolute;
+	top: 7px;
+	left:235px;
+}
+.use-map-Californian p{
+	padding-top: 0px;
+	padding-left: 65px;
+}
+.use-map-Lazzara{
+	border:1px solid #FFFFFF;
+	width: 287px;
+	height: 171px;
+	position: absolute;
+	top: 395px;
+	left:520px;
+}
+.use-map-Lazzara p{
+	padding-left: 85px;
+	padding-top: 140px;
+}
+.use-map-SeaRay{
+	border:1px solid #FFFFFF;
+	width: 268px;
+	height: 140px;
+	position: absolute;
+	top: 152px;
+	left:236px;
+}
+
+.use-map-SeaRay p{
+	padding-top: 110px;
+	padding-left: 75px;
+}
+.use-map-Cruisers{
+	border:1px solid #FFFFFF;
+	width: 212px;
+	height: 285px;
+	position: absolute;
+	top: 7px;
+	left:8px;
+}
+.use-map-Cruisers p{
+	padding-left: 45px;
+}
+.use-map-Marinette{
+	border:1px solid #FFFFFF;
+	width: 191px;
+	height: 374px;
+	position: absolute;
+	top: 7px;
+	left:972px;
+}
+.use-map-Marinette p{
+	padding-left: 28px;
+}
+.use-map-Cruisers-new{
+	border:1px solid #FFFFFF;
+	width: 439px;
+	height: 285px;
+	position: absolute;
+	top: 7px;
+	left:519px;
+}
+.use-map-Cruisers-new p{
+	padding-left: 150px;
+}
+.use-map-link{
+	width: 558px;
+	height: 109px;
+	position: absolute;
+	top: 312px;
+	left:520px;
+}
+
+
+
 /*----------------------------------------------END PHOTO SECTION--------------------------------------------------------------------*/
 /*-------------------------------------------------VIDEO SECTION---------------------------------------------------------------------*/
 .video-section p{
@@ -131,6 +262,7 @@ article h5{
 	margin-bottom: 245px;
 	text-align: center;
 	color: #A8A8A8;
+
 }
 
 .video-section h5{
@@ -194,6 +326,7 @@ video{
 }
 .watch-section h3{
 	margin-top: 158px;
+	color: #525252;
 }
 .watch-button{
 	margin-left: auto;

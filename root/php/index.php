@@ -56,7 +56,7 @@
 		    </div>
 		    </div>
 		    <div class="carousel-item">
-		      <img src="..\img\mainSlider\Group3.png" class="d-block w-100" alt="...">
+		      	<img src="..\img\mainSlider\Group3.png" class="d-block w-100" alt="...">
 		       
 		       <div class="carousel-caption d-none d-md-block">
 		       			        <div class="mycontainer">
@@ -114,10 +114,60 @@
 		<div class="photo-section">
 			<div class="mycontainer">
 				<h2>For charter</h2>
-			</div>
 			<div class="map-photo">
-				<!--USINGMAP-->
+				
+				<div>
+					<img src="..\img\index\Group5.png"  alt="Yacht" usemap="#yachtmap" class="img-map">
+					
+					<map name="yachtmap">
+					  	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
+					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
+					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
+					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
+					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
+					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
+					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
+					 	<area shape="rect" coords="0,0,82,126" href="" alt="Sun">
+					</map>
+				</div>
+
+				<div class="use-map-link myrow">
+					<div class="use-map-text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+					<div class="use-map-arrow">
+						<a  href=""><img src="..\img\index\arrow.png" alt="" ></a>
+					</div>
+				</div>
+				<div>
+					<div class="use-map-Cruisers">
+						<p>2018 Cruisers</p>
+					</div>
+					<div class="use-map-Princess">
+						<p>2015 Princess V62-S</p>
+					</div>
+					<div class="use-map-Marquis">
+						<p>2013 Marquis</p>
+					</div>
+					<div class="use-map-Californian">
+						<p>1991 Californian</p>
+					</div>
+					<div class="use-map-Lazzara">
+						<p>2009 Lazzara</p>
+					</div>
+					<div class="use-map-SeaRay">
+						<p>2015 SeaRay</p>
+					</div>
+					<div class="use-map-Marinette">
+						<p>1981 Marinette</p>
+					</div>
+					<div class="use-map-Cruisers-new">
+						<p>2017 Cruisers</p>
+					</div>
+				</div>
 			</div>
+			</div>
+			
 		</div>
 		
 	</div>
@@ -131,7 +181,7 @@
 
 			<h5>Enjoy</h5>
 			<hr>
-			<video controls poster="..\img\video.png">
+			<video controls poster="..\img\index\video.png">
 				<source src="" type="video/mp4">
   				<source src="" type="video/webm">
 		    </video>
@@ -189,17 +239,29 @@
 			<?php include 'footer.php';?>	
 		</div>
 
-
+	<!-------------------------------------------------END FOOTER---------------------------------------------------------------->
 	<!------------------------------------------------------SLIDER SCRIPT-------------------------------------------------------->
 	<script>
 		$(document).ready(function(){
 		    $("#carousel-example-generic").carousel({
 		        interval : 10000
     		});
+
+    		$(".use-map-link").mouseover(function(){
+     			$(".use-map-arrow").css("visibility","visible");
+     			$(".use-map-text").css("border","1px solid #FFFFFF");
+     		});
+     		
+     		$(".use-map-link").mouseleave (function(){
+    		 	$(".use-map-arrow").css("visibility","hidden");
+    		 	$(".use-map-text").css("border","none");
+    		});
+
 		});
-		 
+
+		
 	</script>
-	<!----------------------------------------END SLIDER SCRIPT-------------------------------------------------------->
+	<!-------------------------------------------------END SLIDER SCRIPT-------------------------------------------------------->
 </body>
 
 

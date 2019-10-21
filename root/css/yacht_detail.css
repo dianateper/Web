@@ -1,0 +1,42 @@
+h3{
+	color: #010135;
+	line-height: 65%;
+}
+h5{
+	text-transform: uppercase;
+}
+.yacht-detail-slide nav{
+	display: flex;
+	justify-content: space-between;
+}
+.yacht-detail-slide nav a{
+color: black;
+}
+
+.page {
+    float:left;
+    background: #992213;
+    height: 100vh;
+    padding-top: 30px;
+}
+#page-1 {
+    background: #0C717A;
+}
+#page-2 {
+    background: #009900;
+}
+#page-3 {
+    background: #0000FF;
+}
+a {
+    color:#FFF;
+}
+a.selected{
+    color: #0098B6;
+}
+
+.page-hide{
+	 visibility: hidden;
+}
+
+

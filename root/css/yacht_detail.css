@@ -12,21 +12,35 @@ h5{
 .yacht-detail-slide nav a{
 color: black;
 }
+nav{
+    margin-top: 15px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background: none;
+}
+.carousel-control-next-icon img{
+    position: relative;
+    left: 32px;
+}
+
+.carousel-control-prev-icon img{
+    position: relative;
+    left: -62px;
+}
 
 .page {
     float:left;
-    background: #992213;
-    height: 100vh;
-    padding-top: 30px;
+    padding-top: 6px;
 }
 #page-1 {
-    background: #0C717A;
+    
 }
 #page-2 {
-    background: #009900;
+   
 }
 #page-3 {
-    background: #0000FF;
+   
 }
 a {
     color:#FFF;
@@ -39,4 +53,145 @@ a.selected{
 	 visibility: hidden;
 }
 
+ div[id^="page-"]{
+    padding-bottom: 225px;
+ }
+/*-----------------------------------------------page - 1  -----------------------------------------------------------------------------------*/
+p, thead{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #525252;
+}
 
+
+#page-1 p:last-child{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #525252;
+    margin-top:20px;
+}
+
+.small-container{
+    width: 970px;
+    margin: 0 auto;
+}
+
+
+/*-------------------------------------------------page - 2 --------------------------------------------------------------------------------*/
+.yacht-detail-table{
+    position: relative;
+}
+
+.rect{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+    top: 825px;
+}
+.rect-orange{
+    background-color: #F8E0C2;
+}
+
+.rect-blue{
+    background-color: rgba(0,152,182,0.3);
+    top: 1060px;
+    visibility: hidden;
+
+}
+.rect-dark-blue{
+      top: 921px;
+      background: #036D7D;
+      height: 160px;
+      visibility: hidden;
+}
+
+.rect-dark-blue-next{
+ top: 1240px;
+ visibility: hidden;
+}
+
+ tbody:before,thead:before{
+    line-height:1em; content:"\200C"; 
+    display:block;
+
+}
+
+#page-2 table{
+    width: 100%;
+}
+
+td{
+    padding-top: 6px;
+}
+
+thead{
+    margin-bottom: 20px;
+    margin-top: 55px;
+    color: #525252;
+}
+
+td:nth-child(odd){
+    color: #E5E5E5;
+}
+
+thead td{
+      color: #525252 !important;
+}
+
+
+.w-825{
+    width: 825px;
+}
+
+.f-r{
+    float: right;
+
+}
+
+.f-l{
+    float: left;
+}
+
+.slick-prev, .slick-next{
+    width: auto;
+    height:auto;
+    z-index: 1;
+}
+.slick-prev{
+    left: -145px;
+}
+.slick-next{
+    right: -145px;
+}
+
+.responsive:last-child{
+    margin-top: 30px;
+}
+.responsive:first-child{
+    margin-top: 87px;
+}
+.responsivertl{
+ margin-top: 30px;
+}
+.responsivertl .slick-prev{
+    visibility: hidden;
+}
+
+#page-3 .responsive:nth-of-type(even) .slick-next{
+    visibility: hidden;
+}
+#page-3 .responsive:nth-of-type(odd) .slick-prev{
+    visibility: hidden;
+}
+
+#page-3 .responsivertl .slick-next{
+    
+    left: -145px;
+}

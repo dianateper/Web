@@ -24,3 +24,11 @@ footer{
 footer h5{
 	margin-bottom: 28px;
 }
+
+ul li a:hover {
+	text-decoration: none;
+}
+
+.logo a:hover {
+	text-decoration: none;
+}

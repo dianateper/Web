@@ -17,6 +17,11 @@ nav li{
 nav a{
 	margin-right: 52px;
 }
+
+nav a:hover {
+	text-decoration: none;
+}
+
 .navigator{
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -43,6 +48,7 @@ nav a{
 	background: #FFFFFF;
 	border: 1px solid #010135;	
 	color: #010135;
+	text-decoration: none;
 }
 .button-sing-up{
 	padding: 8px 18px 8px 19px;
@@ -50,7 +56,8 @@ nav a{
 .button-sing-up:hover, .button-sing-in{
 	background: #010135;
 	color: #FFFFFF;
-	border: 1px solid #FFFFFF;	
+	border: 1px solid #FFFFFF;
+	text-decoration: none;	
 }
 .button-sing-in,.button-sing-up
 {

@@ -34,7 +34,7 @@ nav{
     padding-top: 6px;
 }
 #page-1 {
-    
+    height: 100%;
 }
 #page-2 {
    
@@ -53,9 +53,7 @@ a.selected{
 	 visibility: hidden;
 }
 
- div[id^="page-"]{
-    padding-bottom: 225px;
- }
+ 
 /*-----------------------------------------------page - 1  -----------------------------------------------------------------------------------*/
 p, thead{
     font-family: Montserrat;
@@ -67,7 +65,7 @@ p, thead{
 }
 
 
-#page-1 p:last-child{
+#page-1 p:nth-of-type(2),#page-1 p:nth-of-type(3){
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -77,6 +75,9 @@ p, thead{
     margin-top:20px;
 }
 
+#page-1 p:first-child{
+    margin-top: 65px;
+}
 .small-container{
     width: 970px;
     margin: 0 auto;
@@ -86,6 +87,7 @@ p, thead{
 /*-------------------------------------------------page - 2 --------------------------------------------------------------------------------*/
 .yacht-detail-table{
     position: relative;
+    margin-bottom: 50px;
 }
 
 .rect{
@@ -93,7 +95,7 @@ p, thead{
     height: 100px;
     width: 100%;
     z-index: -1;
-    top: 825px;
+    top: 855px;
 }
 .rect-orange{
     background-color: #F8E0C2;
@@ -195,3 +197,24 @@ thead td{
     
     left: -145px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

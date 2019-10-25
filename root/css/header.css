@@ -18,10 +18,6 @@ nav a{
 	margin-right: 52px;
 }
 
-nav a:hover {
-	text-decoration: none;
-}
-
 .navigator{
 	padding-top: 12px;
 	padding-bottom: 12px;

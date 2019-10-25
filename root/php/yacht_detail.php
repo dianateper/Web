@@ -106,7 +106,8 @@
 						    <div id="page-1" class="page"> 
 						         <p>Ut mauris nulla sed.</p>
 							      
-							     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus eget maecenas faucibus dolor aenean urna, nisi. Diam eu lacus urna morbi molestie dui. Facilisis id vestibulum viverra nulla tellus urna, eget dui, leo. Odio justo velit scelerisque leo lectus eget suspendisse vitae. Eget tincidunt felis dui pellentesque aenean. Fermentum sit vestibulum elit suspendisse eget at porttitor id. Elit pellentesque blandit integer est eget pharetra integer. Purus varius tellus, nulla lectus tempor, dui ac. Vestibulum scelerisque eget urna, dignissim turpis tortor. Varius aliquet diam nullam tempus. Tellus phasellus diam sodales non non morbi scelerisque pulvinar. Aenean id orci, scelerisque in tempus ut adipiscing vulputate. Est varius erat pellentesque.</p>
+							     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus eget maecenas faucibus dolor aenean urna, nisi. Diam eu lacus urna morbi molestie dui. Facilisis id vestibulum viverra nulla tellus urna, eget dui, leo. Odio justo velit scelerisque leo lectus eget suspendisse vitae. Eget tincidunt felis dui pellentesque aenean. Fermentum sit vestibulum elit suspendisse eget at porttitor id. Elit pellentesque blandit integer est eget pharetra integer. </p>
+							     <p>Purus varius tellus, nulla lectus tempor, dui ac. Vestibulum scelerisque eget urna, dignissim turpis tortor. Varius aliquet diam nullam tempus. Tellus phasellus diam sodales non non morbi scelerisque pulvinar. Aenean id orci, scelerisque in tempus ut adipiscing vulputate. Est varius erat pellentesque.</p>
 							  
 							</div>
 <!--------------------------------------------------------------------PAGE 2 ------------------------------------------------------------------->	
@@ -265,30 +266,40 @@
  <!--------------------------------------------------------------------PAGE 3 ------------------------------------------------------------------->	
 						    <div id="page-3" class="page page-hide"> 
 						       
-						    
-									<div class="responsive f-l w-825">
+						      
+								
+
+								
+
+
+
+
+						       <div class="responsive f-l w-825">
+									 <div><img src="../img/Princess/Princess_9.png" alt="" width="195px" height="130px;"></div>
+									  <div><img src="../img/Princess/Princess_10.png" alt="" width="195px" height="130px;"></div>
+									  <div><img src="../img/Princess/Princess_11.png" alt="" width="195px" height="130px;"></div>
 									  <div><img src="../img/Princess/Princess.png" alt="" width="195px" height="130px;"></div>
 									  <div><img src="../img/Princess/Princess_1.png" alt="" width="195px" height="130px;"></div>
 									  <div><img src="../img/Princess/Princess_2.png" alt="" width="195px" height="130px;"></div>
 									  <div><img src="../img/Princess/Princess_3.png" alt="" width="195px" height="130px;"></div>
 									  <div><img src="../img/Princess/Princess_4.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_5.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_6.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_7.png" alt="" width="195px" height="130px;"></div>
+									
 
-									</div>
-						       
-						        
+
+
+
+						      		  </div>
+
+						     
 									<div class=" responsivertl f-r w-825" dir="rtl">
-									 <div><img src="../img/Princess/Princess_5.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_6.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_7.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_8.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_9.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_10.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_11.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess.png" alt="" width="195px" height="130px;"></div>
-
+										 <div><img src="../img/Princess/Princess_5.png" alt="" width="195px" height="130px;"></div>
+										  <div><img src="../img/Princess/Princess_6.png" alt="" width="195px" height="130px;"></div>
+										  <div><img src="../img/Princess/Princess_7.png" alt="" width="195px" height="130px;"></div>
+										  <div><img src="../img/Princess/Princess_8.png" alt="" width="195px" height="130px;"></div>
+										  <div><img src="../img/Princess/Princess_9.png" alt="" width="195px" height="130px;"></div>
+										  <div><img src="../img/Princess/Princess_10.png" alt="" width="195px" height="130px;"></div>
+										  <div><img src="../img/Princess/Princess_11.png" alt="" width="195px" height="130px;"></div>
+										  <div><img src="../img/Princess/Princess.png" alt="" width="195px" height="130px;"></div>
 									</div>
 						        
 						        
@@ -302,8 +313,25 @@
 									  <div><img src="../img/Princess/Princess_3.png" alt="" width="195px" height="130px;"></div>
 									  <div><img src="../img/Princess/Princess_4.png" alt="" width="195px" height="130px;"></div>
 									
-						        </div>
-						    </div>
+
+
+
+
+						      		  </div>
+
+
+
+
+
+
+							
+
+
+
+						       
+
+
+							</div>
  <!--------------------------------------------------------------------PAGE 4 ------------------------------------------------------------------->	
 						    <div id="page-4" class="page page-hide"> 
 						        <div class="small-container myrow">
@@ -347,8 +375,20 @@
 
 
 		<script type="text/javascript">
+
+
+
+
+
+
+
 		    $(document).ready(function(){
-		     $('.responsive').slick({
+
+		    
+
+
+
+					$('.responsive').slick({
 					dots: false,
 					infinite: true,
 					speed: 300,
@@ -423,10 +463,20 @@
 					    }
 					  ]
 					});
-
+					$('.container-gallery').gallery({
+					  customControls: {
+					    prevButton: prevContent,
+					    nextButton: nextContent
+					  }
+					});
 			    
 		      
 		    });
  	 </script>
+
+ 	 <script>
+
+
+		</script>
 	</body>
 </html>

@@ -37,10 +37,10 @@
 		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 		    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 		</ol>
-  		<div class="carousel-inner">
+  		<div class="carousel-inner myrow">
 		    <div class="carousel-item active">
 		        <img src="..\img\mainSlider\Group1.png" class="d-block w-100" alt="...">
-			        <div class="carousel-caption d-none d-md-block">
+			    <div class="carousel-caption d-none d-md-block">
 			      	<div class="mycontainer">
 				        <p>Eget vehicula magna scelerisque nunc arcu.</p>
 			        </div>
@@ -60,7 +60,7 @@
 		       
 		       <div class="carousel-caption d-none d-md-block">
 		       			        <div class="mycontainer">
-			        <p>Eget vehicula magna scelerisque nunc arcu</p>
+			        <p>Lorem ipsum dolor sit amet. Fringila morbi</p>
 		        </div>
 		    	</div>
 		    </div>

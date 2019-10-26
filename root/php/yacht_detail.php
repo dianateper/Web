@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title></title>
+		<title>Princess detail</title>
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -28,6 +28,8 @@
 		<!--------------------------------------END Header------------------------------------------------------------->
 
 		<div>
+			<div class="bg-text">Yachts</div>
+			<div class="bg-text">Yachts</div>
 			<div class="mycontainer">
 				<div>
 					<h3>2015 Princess V62-S</h3>
@@ -102,7 +104,7 @@
 						    <a href=""><img  alt="" id="slide-arrow" src="..\img\yacht_detail\line_dotes1.png"></a>
 						<div class="wrapper">
 <!--------------------------------------------------------------------PAGE 1 ------------------------------------------------------------------->							
-						   
+						 
 						    <div id="page-1" class="page"> 
 						         <p>Ut mauris nulla sed.</p>
 							      
@@ -115,7 +117,7 @@
 						        
 						        <div>  	
 						        	<table class="yacht-detail-table">
-						        	<thead><tr><td colspan="4">Basic information</td></tr></thead>
+						        	<thead><tr><th colspan="4">Basic information</th></tr></thead>
 						        	<tbody>
 						        		<tr>
 						        			<td>Manufacturer:</td>
@@ -149,7 +151,7 @@
 						        		</tr>
 						        	</tbody>
 
-						        	<thead><tr><td  colspan="4">Dimensions & Weight</td></tr></thead>
+						        	<thead><tr><th  colspan="4">Dimensions & Weight</th></tr></thead>
 						        	<tr>
 						        		<td>Length:</td>
 						        		<td>62 ft - 18.9 meter</td>
@@ -169,7 +171,7 @@
 						        		<td>-</td>
 						        	</tr>
 						        	
-						        	<thead><tr><td  colspan="4">Engine</td></tr></thead>
+						        	<thead><tr><th  colspan="4">Engine</th></tr></thead>
 						        	<tr>
 						        		<td>Make:</td>
 						        		<td>Caterpillar</td>
@@ -212,7 +214,7 @@
 						        		<td></td>
 						        		<td></td>
 						        	</tr>
-						        	<thead><tr><td  colspan="4">Tank capacities</td></tr></thead>
+						        	<thead><tr><th  colspan="4">Tank capacities</th></tr></thead>
 						        	<tr>
 						        		<td>Fuel Tank:</td>
 						        		<td>900 gallons - 1 tank(s)</td>
@@ -229,7 +231,7 @@
 						        		
 						        	</tr>
 
-						        	<thead><tr><td  colspan="4">Accommodations</td></tr></thead>
+						        	<thead><tr><th  colspan="4">Accommodations</th><tr></thead>
 						        	<tr>
 						        		<td>Total Cabins:</td>
 						        		<td>2</td>
@@ -266,44 +268,143 @@
  <!--------------------------------------------------------------------PAGE 3 ------------------------------------------------------------------->	
 						    <div id="page-3" class="page page-hide small-container"> 
 						       						 	
-								 <div class="responsive f-l w-825" >
-									 <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_9.png" alt="" width="195px" height="130px;"  ></a></div>
-									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_10.png" alt="" width="195px" height="130px;"></a></div>
-									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_11.png" alt="" width="195px" height="130px;"></a></div>
-									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess.png" alt="" width="195px" height="130px;"  ></a></div>
-									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_1.png" alt="" width="195px" height="130px;"></a></div>
-									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_2.png" alt="" width="195px" height="130px;"></a></div>
-									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_3.png" alt="" width="195px" height="130px;"></a></div>
-									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_4.png" alt="" width="195px" height="130px;"></a></div>
+								 <div>
+								 	<div class=" responsive f-l w-825">
+										<div>
+									  <img src="../img/Princess/Princess.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_1.png" onclick="openModal();currentSlide(2)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_2.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_3.png" onclick="openModal();currentSlide(4)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_4.png" onclick="openModal();currentSlide(5)" class="hover-shadow" width="195px">
+									  </div>
+									 <div>
+									    <img src="../img/Princess/Princess_5.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_6.png" onclick="openModal();currentSlide(7)" class="hover-shadow" width="195px">
+									  </div>
+									 <div>
+									    <img src="../img/Princess/Princess_7.png" onclick="openModal();currentSlide(8)" class="hover-shadow" width="195px">
+									  </div>
+								</div>
+							</div>
+
+
+
+									  <div id="myModal" class="modal">
+										  <span class="close cursor" onclick="closeModal()">&times;</span>
+										  <div class="modal-content">
+
+										    <div class="mySlides">
+										  
+										      <img src="../img/Princess/Princess.png">
+										    </div>
+
+										    <div class="mySlides">
+										      
+										      <img src="../img/Princess/Princess_1.png">
+										    </div>
+
+										    <div class="mySlides">
+										      
+										      <img src="../img/Princess/Princess_2.png" >
+										    </div>
+
+										    <div class="mySlides">
+										      
+										      <img src="../img/Princess/Princess_3.png">
+										    </div>
+										     <div class="mySlides">
+										      
+										      <img src="../img/Princess/Princess_4.png">
+										    </div>
+										     <div class="mySlides">
+										      
+										      <img src="../img/Princess/Princess_5.png">
+										    </div>
+										     <div class="mySlides">
+										      
+										      <img src="../img/Princess/Princess_6.png">
+										    </div>
+										     <div class="mySlides">
+										      
+										      <img src="../img/Princess/Princess_7.png">
+										    </div>
+
+										    <!-- Next/previous controls -->
+										    
+										    <!-- Thumbnail image controls -->
+										    <div class="myclass myclass">
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess.png" onclick="currentSlide(1)" alt="Nature">
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_1.png" onclick="currentSlide(2)" alt="Snow" >
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_2.png" onclick="currentSlide(3)" alt="Mountains" >
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_3.png" onclick="currentSlide(4)" alt="Lights" >
+										    </div>
+										       <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_4.png" onclick="currentSlide(5)" alt="Nature">
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_5.png" onclick="currentSlide(6)" alt="Snow"  >
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_6.png" onclick="currentSlide(7)" alt="Mountains">
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_7.png" onclick="currentSlide(8)" alt="Lights"  >
+										    </div>
+										  </div>
+										  </div>
+										</div>
 									
 
-						      		  </div>
+						   
 									
 								
 
 
 						     
 									<div class=" responsivertl f-r w-825" dir="rtl">
-										 <div><img src="../img/Princess/Princess_5.png" alt="" width="195px" height="130px;"></div>
-										  <div><img src="../img/Princess/Princess_6.png" alt="" width="195px" height="130px;"></div>
-										  <div><img src="../img/Princess/Princess_7.png" alt="" width="195px" height="130px;"></div>
-										  <div><img src="../img/Princess/Princess_8.png" alt="" width="195px" height="130px;"></div>
-										  <div><img src="../img/Princess/Princess_9.png" alt="" width="195px" height="130px;"></div>
-										  <div><img src="../img/Princess/Princess_10.png" alt="" width="195px" height="130px;"></div>
-										  <div><img src="../img/Princess/Princess_11.png" alt="" width="195px" height="130px;"></div>
-										  <div><img src="../img/Princess/Princess.png" alt="" width="195px" height="130px;"></div>
+										 <div><img src="../img/Princess/Princess_5.png" alt="" width="195px"></div>
+										  <div><img src="../img/Princess/Princess_6.png" alt="" width="195px"></div>
+										  <div><img src="../img/Princess/Princess_7.png" alt="" width="195px"></div>
+										  <div><img src="../img/Princess/Princess_8.png" alt="" width="195px" ></div>
+										  <div><img src="../img/Princess/Princess_9.png" alt="" width="195px"></div>
+										  <div><img src="../img/Princess/Princess_10.png" alt="" width="195px"></div>
+										  <div><img src="../img/Princess/Princess_11.png" alt="" width="195px"></div>
+										  <div><img src="../img/Princess/Princess.png" alt="" width="195px"></div>
 									</div>
 						        
 						        
 									<div class="responsive f-l w-825">
-									 <div><img src="../img/Princess/Princess_9.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_10.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_11.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_1.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_2.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_3.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_4.png" alt="" width="195px" height="130px;"></div>
+									 <div><img src="../img/Princess/Princess_9.png" alt="" width="195px" ></div>
+									  <div><img src="../img/Princess/Princess_10.png" alt="" width="195px" ></div>
+									  <div><img src="../img/Princess/Princess_11.png" alt="" width="195px" ></div>
+									  <div><img src="../img/Princess/Princess.png" alt="" width="195px"></div>
+									  <div><img src="../img/Princess/Princess_1.png" alt="" width="195px"></div>
+									  <div><img src="../img/Princess/Princess_2.png" alt="" width="195px"></div>
+									  <div><img src="../img/Princess/Princess_3.png" alt="" width="195px" ></div>
+									  <div><img src="../img/Princess/Princess_4.png" alt="" width="195px" ></div>
 										
 
 
@@ -311,6 +412,7 @@
 
 
 							</div>
+
  <!--------------------------------------------------------------------PAGE 4 ------------------------------------------------------------------->	
 						    <div id="page-4" class="page page-hide"> 
 						        <div class="small-container myrow">
@@ -335,12 +437,12 @@
 						        </div>
 						    </div>
 						</div>
+
 					</div>
 				</div>
 			</div>
+
 		</div>
-	</div>
-		
 		<!----------------------------------------------------FOOTER----------------------------------------------------------------->
 		<div>
 			<?php include 'footer.php';?>	
@@ -363,89 +465,58 @@
 
 
 
-		
-		<script type="text/javascript">
-		    $(document).ready(function(){
-		    	if ($.swipebox.isOpen){
-							console.log("swipebox");
-						}
-		    
-					$('.responsive').slick({
-					dots: false,
-					infinite: true,
-					speed: 300,
-					slidesToShow: 4,
-					slidesToScroll: 4,
-					  
- 					prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/yacht_detail/dotes_left.png'>",
- 					nextArrow:"<img class='a-right control-c next slick-next' src='../img/yacht_detail/dotes_right.png'>",
-					responsive: [
-					  {
-					    breakpoint: 1024,
-					    settings: {
-					    slidesToShow: 3,
-					    slidesToScroll: 3,
-					    infinite: true,
-					    dots: false
-					   }
-					    },
-					    {
-					      breakpoint: 600,
-					      settings: {
-					        slidesToShow: 2,
-					        slidesToScroll: 2
-					      }
-					    },
-					    {
-					      breakpoint: 480,
-					      settings: {
-					        slidesToShow: 1,
-					        slidesToScroll: 1
-					      }
-					    }
-					  ]
-					});
-		     $('.responsivertl').slick({
-		     		rtl:true,
-					dots: false,
-					infinite: true,
-					speed: 300,
-					slidesToShow: 4,
-					slidesToScroll: 4,
-					prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/yacht_detail/dotes_right.png'>",
- 					nextArrow:"<img class='a-right control-c next slick-next' src='../img/yacht_detail/dotes_left.png'>",
-					responsive: [
-					  {
-					    breakpoint: 1024,
-					    settings: {
-					    slidesToShow: 3,
-					    slidesToScroll: 3,
-					    infinite: true,
-					    dots: false
-					   }
-					    },
-					    {
-					      breakpoint: 600,
-					      settings: {
-					        slidesToShow: 2,
-					        slidesToScroll: 2
-					      }
-					    },
-					    {
-					      breakpoint: 480,
-					      settings: {
-					        slidesToShow: 1,
-					        slidesToScroll: 1
-					      }
-					    }
-					  ]
-					});
-			    
-		      
-		    });
+	
+			<script>
+					// Open the Modal
+					function openModal() {
+					  document.getElementById("myModal").style.display = "block";
+					}
 
-		</script>
-				
-			
+					// Close the Modal
+					function closeModal() {
+					  document.getElementById("myModal").style.display = "none";
+					}
+
+					var slideIndex = 1;
+					showSlides(slideIndex);
+
+					// Next/previous controls
+					function plusSlides(n) {
+					  showSlides(slideIndex += n);
+					}
+
+					// Thumbnail image controls
+					function currentSlide(n) {
+					  showSlides(slideIndex = n);
+					}
+
+					function showSlides(n) {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  var dots = document.getElementsByClassName("demo");
+					    if (n > slides.length) {slideIndex = 1}
+					  if (n < 1) {slideIndex = slides.length}
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";
+					  }
+					  for (i = 0; i < dots.length; i++) {
+					    dots[i].className = dots[i].className.replace(" active", "");
+					  }
+					  slides[slideIndex-1].style.display = "block";
+					  dots[slideIndex-1].className += " active";
+					}
+
+
+					$(document).ready(function(){
+					  $('.myclass').slick({
+					  slidesToShow:4,
+					  slidesToScroll: 4,
+					  dots:true,
+					  centerMode: true,
+					  });
+					});
+			</script>
+
+
 	</body>
 </html>

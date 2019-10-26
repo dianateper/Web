@@ -7,12 +7,22 @@ body{
 }
 
 
-.myrow:after{
+.myrow:after {
 	content: "";
 	display: block;
 	clear: both;
 }
-
+.bg-text{
+	 font-family: 'Monserrat', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 350px;
+	line-height: 427px;
+	z-index: -1;
+	color: rgba(0, 152, 182, 0.15);
+	position: absolute;
+	text-transform: uppercase;
+}
 .mycontainer{
 	width: 1170px;
 	margin:0 auto;

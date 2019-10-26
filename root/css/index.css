@@ -11,8 +11,8 @@ h2{
 }
 /*-------------------------------------------------SLIDER-------------------------------------------------------------------------*/
 .carousel-indicators li {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-radius: 100%;
   margin-left: 30px;
   border: 2px solid #FFFFFF;
@@ -46,12 +46,15 @@ h2{
   	display: block;
   	text-align: right;
 }
-
+.carousel-caption{
+	right: 0px;
+	left: 0px;
+}
 
 .carousel-inner .carousel-item:nth-of-type(1) p{
 	width: 815px;
 	float: right;
-	margin-bottom: 445px;
+	margin-bottom: 380px;
 	
 }
 .carousel-inner .carousel-item:nth-of-type(2) p{
@@ -59,7 +62,7 @@ h2{
  }
 
 .carousel-inner .carousel-item:nth-of-type(3) p{
-	margin-bottom: 500px;
+	margin-bottom: 470px;
 	text-align: left;
 }
 .carousel-inner .carousel-item:nth-of-type(4) p{
@@ -273,6 +276,9 @@ article h5{
 
 /*----------------------------------------------END PHOTO SECTION--------------------------------------------------------------------*/
 /*-------------------------------------------------VIDEO SECTION---------------------------------------------------------------------*/
+.video-section{
+	position: relative;
+}
 .video-section p{
 	margin-top: 80px;
 	margin-bottom: 245px;
@@ -294,12 +300,24 @@ article h5{
 video{
 	margin-bottom: 250px;
 }
+
+
+.video-section .bg-text:nth-of-type(1){
+	top: 110px;
+	left: -665px;
+
+}
+.video-section .bg-text:nth-of-type(2){
+	top: 820px;
+	left: -220px;
+}
 /*-------------------------------------------------END VIDEO SECTION-----------------------------------------------------------------*/
 /*-------------------------------------------------MAP SECTION-----------------------------------------------------------------------*/
 .map-section{
 	background-color: rgba(3, 109, 125, 0.4);
 	padding-top: 100px;
 	padding-bottom: 100px;
+	position: relative;
 
 }
 .map-section h2,.map-section p{
@@ -319,6 +337,16 @@ video{
 	float: left;
 	width: 670px;
 	height: 643px;
+}
+
+.map-section .bg-text:nth-of-type(1){
+	top: -50px;
+	left: 120px;
+
+}
+.map-section .bg-text:nth-of-type(2){
+	top: 370px;
+	left: -315px;
 }
 
 /*-------------------------------------------------END MAP SECTION------------------------------------------------------------------*/
@@ -353,7 +381,7 @@ video{
 }
 .watch-section a{
 	float: right;
-	padding:10 39 11 39px;
+	padding:10px 39px 11px 39px;
 	background: #036D7D;
 	border-radius: 50px;
 	font-weight: bold;

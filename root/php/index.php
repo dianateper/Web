@@ -1,8 +1,9 @@
-<html>
+<!DOCTYPE html >
+<html lang="en">
 	<head>
 		<meta>
 		<title>WEB</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -40,21 +41,23 @@
   		<div class="carousel-inner myrow">
 		    <div class="carousel-item active">
 		        <img src="..\img\mainSlider\Group1.png" class="d-block w-100" alt="...">
-			    <div class="carousel-caption d-none d-md-block">
+			    <div class="carousel-caption d-none d-md-block mycontainer myrow">
 			      	<div class="mycontainer">
 				        <p>Eget vehicula magna scelerisque nunc arcu.</p>
 			        </div>
 		        </div>
 		    </div>
+		   
 		    <div class="carousel-item">
 		      <img src="..\img\mainSlider\Group2.png" class="d-block w-100" alt="...">
 		       
 		       <div class="carousel-caption d-none d-md-block">
-		       	<div class="mycontainer">
-			        <p>Lorem <br>ipsum dolor sit amet</p>
-		        </div>
+			       	<div class="mycontainer">
+				        <p>Lorem <br>ipsum dolor sit amet</p>
+			        </div>
+		    	</div>
 		    </div>
-		    </div>
+		    
 		    <div class="carousel-item">
 		      	<img src="..\img\mainSlider\Group3.png" class="d-block w-100" alt="...">
 		       
@@ -64,16 +67,16 @@
 			        </div>
 		    	</div>
 		    </div>
+
 		    <div class="carousel-item">
 		     	<img src="..\img\mainSlider\Group4.png" class="d-block w-100" alt="...">
 		       	<div class="carousel-caption d-none d-md-block">
-		     	<div class="mycontainer">
-			        <p>Eget vehicula magna scelerisque nunc arcu.</p>
-		        </div>
-		    </div>
+			     	<div class="mycontainer">
+				        <p>Eget vehicula magna scelerisque nunc arcu.</p>
+			        </div>
+		  		 </div>
 		    </div>
   		</div>
-		</div>
 		<div class="carousel-control">
 		    <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
 		      <span aria-hidden="true"><img src="..\img\arrow_left.png" alt=""></span>
@@ -84,22 +87,22 @@
 			    <span class="sr-only">Next</span>
 	   		</a>
    		</div>
-   	</div>
+	</div>
 		<!--------------------------------------END SLIDER------------------------------------------------------------->
 		<!-----------------------------------ARTICLE SECTION------------------------------------------------------------->
 		<div>
 			<div class="mycontainer">
 				<div class="myrow article-section">
 					<article>
-						<h5>A wealth of knowledge to enhance your experience</h4>
+						<h5>A wealth of knowledge to enhance your experience</h5>
 						<p>A yacht charter offers life-affirming adventure. By accommodating both your preferences and requirements, no detail is left to chance.</p>
 					</article>
 					<article>
-						<h5>CLear understanding of your requirements</h4>
+						<h5>CLear understanding of your requirements</h5>
 						<p>We work hand-in-hand with our clients to guide and advise them on all aspects of the purchase process.</p>
 					</article>
 					<article>
-						<h5>Maximal convenience of search</h4>
+						<h5>Maximal convenience of search</h5>
 						<p>You can search for yachts using the specialised search feature below or you can contact us to let us know your precise requirements.</p>
 					</article>
 				</div>
@@ -179,6 +182,8 @@
 	<!------------------------------------------------VIDEO SECTION------------------------------------------------------>
 
 	<div class="video-section">
+		<div class="bg-text">Yachts</div>
+		<div class="bg-text">Yachts</div>
 		<div class="mycontainer">
 			<p>A yacht charter offers all you could imagine and more, from absolute relaxation to breathtaking adventure and treasured family moments, it is the ultimate escape. Chartering a yacht allows you to explore a variety of destinations while offering you all the comforts and amenities of a luxury villa. The possibilities are truly endless, however your dedicated charter broker will find out your requirements and carefully guide you through the selection process, helping you to make the final choice and negotiating the best rate for you.</p>
 
@@ -197,6 +202,8 @@
 	<!-------------------------------------------------MAP SECTION--------------------------------------------------------------->
 
 	<div class="map-section">
+		<div class="bg-text">Yachts</div>
+		<div class="bg-text">Yachts</div>
 		<div class="mycontainer myrow">
 			<div id="map">
 				

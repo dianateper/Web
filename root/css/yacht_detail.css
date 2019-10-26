@@ -5,6 +5,14 @@ h3{
 h5{
 	text-transform: uppercase;
 }
+.bg-text:first-child{
+    top: 435px;
+    left: 30px;
+}
+.bg-text:nth-of-type(2){
+    top: 1130px;
+
+}
 .yacht-detail-slide nav{
 	display: flex;
 	justify-content: space-between;
@@ -29,13 +37,12 @@ color: black;
     left: -62px;
 }
 
+
 .page {
     float:left;
     padding-top: 6px;
 }
-#page-1 {
-    height: 100%;
-}
+
 #page-2 {
    
 }
@@ -143,9 +150,10 @@ td:nth-child(odd){
     color: #E5E5E5;
 }
 
-thead td{
-      color: #525252 !important;
+thead th{
+      color: #525252;
 }
+
 
 
 
@@ -214,3 +222,119 @@ thead td{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#myModal .column{
+    width:25%;
+    float:left;
+}
+
+ .column img{
+     width:100%;
+    float:left;
+ }
+ .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+#myModal .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+ #myModal .close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#myModal.close:hover,
+#myModal .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+#myModal .mySlides {
+  display: none;
+}
+
+
+
+/* Number text (1/3 etc) */
+#myModal .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+
+
+#myModal img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+ img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.myclass .column{
+    width: 25%;
+}

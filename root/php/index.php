@@ -59,9 +59,9 @@
 		      	<img src="..\img\mainSlider\Group3.png" class="d-block w-100" alt="...">
 		       
 		       <div class="carousel-caption d-none d-md-block">
-		       			        <div class="mycontainer">
-			        <p>Lorem ipsum dolor sit amet. Fringila morbi</p>
-		        </div>
+			       	<div class="mycontainer">
+				        <p>Lorem ipsum dolor sit amet. Fringila morbi</p>
+			        </div>
 		    	</div>
 		    </div>
 		    <div class="carousel-item">
@@ -247,7 +247,7 @@
 	<script>
 		$(document).ready(function(){
 		    $("#carousel-example-generic").carousel({
-		        interval : 10000
+		        interval : 20000
     		});
 
     		$(".use-map-link").mouseover(function(){

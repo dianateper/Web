@@ -9,7 +9,6 @@ header{
 nav ul{
 	float:left;
 	display: flex;
-
 }
 nav li{
 	font-size: 18px;

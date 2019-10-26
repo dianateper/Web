@@ -9,17 +9,17 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
-
 		<link rel="stylesheet" type="text/css" href="../css/slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/slick/slick-theme.css"/>
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.css">
+
 		<link rel="stylesheet" href="..\css\reset.css" type="text/css"/>
 		<link rel="stylesheet" href="..\css\header.css" type="text/css"/>
 		<link rel="stylesheet" href="..\css\footer.css" type="text/css"/>
 		<link rel="stylesheet" href="..\css\style.css" type="text/css">
 		<link rel="stylesheet" href="..\css\yacht_detail.css" type="text/css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	</head>
+		
+
 	<body>
 		<!--------------------------------------Header------------------------------------------------------------->
 		<div>
@@ -264,34 +264,23 @@
 						        </div>
 						    </div>
  <!--------------------------------------------------------------------PAGE 3 ------------------------------------------------------------------->	
-						    <div id="page-3" class="page page-hide"> 
-						       
-						      
-								
-
-<<<<<<< HEAD
-								
-
-
-=======
->>>>>>> diana
-
-
-						       <div class="responsive f-l w-825">
-									 <div><img src="../img/Princess/Princess_9.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_10.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_11.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_1.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_2.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_3.png" alt="" width="195px" height="130px;"></div>
-									  <div><img src="../img/Princess/Princess_4.png" alt="" width="195px" height="130px;"></div>
+						    <div id="page-3" class="page page-hide small-container"> 
+						       						 	
+								 <div class="responsive f-l w-825" >
+									 <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_9.png" alt="" width="195px" height="130px;"  ></a></div>
+									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_10.png" alt="" width="195px" height="130px;"></a></div>
+									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_11.png" alt="" width="195px" height="130px;"></a></div>
+									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess.png" alt="" width="195px" height="130px;"  ></a></div>
+									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_1.png" alt="" width="195px" height="130px;"></a></div>
+									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_2.png" alt="" width="195px" height="130px;"></a></div>
+									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_3.png" alt="" width="195px" height="130px;"></a></div>
+									  <div><a href="../img/Princess/Princess_9.png" class="swipebox"><img src="../img/Princess/Princess_4.png" alt="" width="195px" height="130px;"></a></div>
 									
 
-
-
-
 						      		  </div>
+									
+								
+
 
 						     
 									<div class=" responsivertl f-r w-825" dir="rtl">
@@ -315,23 +304,10 @@
 									  <div><img src="../img/Princess/Princess_2.png" alt="" width="195px" height="130px;"></div>
 									  <div><img src="../img/Princess/Princess_3.png" alt="" width="195px" height="130px;"></div>
 									  <div><img src="../img/Princess/Princess_4.png" alt="" width="195px" height="130px;"></div>
-									
-
-
+										
 
 
 						      		  </div>
-
-
-
-
-
-
-							
-
-
-
-						       
 
 
 							</div>
@@ -371,26 +347,29 @@
 		</div>
 
 		<!-------------------------------------------------END FOOTER---------------------------------------------------------------->
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="http://code.jquery.com/jquery-2.0.0.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
+
+
 		<script src="../js/yacht_detail.js"></script>
-		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.1.1.js"></script>
 		<script type="text/javascript" src="../css/slick/slick.min.js"></script>
 
 
+
+		
 		<script type="text/javascript">
-
-
-
-
-
-
-
 		    $(document).ready(function(){
-
+		    	if ($.swipebox.isOpen){
+							console.log("swipebox");
+						}
 		    
-
-
-
 					$('.responsive').slick({
 					dots: false,
 					infinite: true,
@@ -400,8 +379,6 @@
 					  
  					prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/yacht_detail/dotes_left.png'>",
  					nextArrow:"<img class='a-right control-c next slick-next' src='../img/yacht_detail/dotes_right.png'>",
-
-
 					responsive: [
 					  {
 					    breakpoint: 1024,
@@ -428,8 +405,6 @@
 					    }
 					  ]
 					});
-
-
 		     $('.responsivertl').slick({
 		     		rtl:true,
 					dots: false,
@@ -437,9 +412,8 @@
 					speed: 300,
 					slidesToShow: 4,
 					slidesToScroll: 4,
-				
+					prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/yacht_detail/dotes_right.png'>",
  					nextArrow:"<img class='a-right control-c next slick-next' src='../img/yacht_detail/dotes_left.png'>",
-
 					responsive: [
 					  {
 					    breakpoint: 1024,
@@ -466,20 +440,12 @@
 					    }
 					  ]
 					});
-					$('.container-gallery').gallery({
-					  customControls: {
-					    prevButton: prevContent,
-					    nextButton: nextContent
-					  }
-					});
 			    
 		      
 		    });
- 	 </script>
-
- 	 <script>
-
 
 		</script>
+				
+			
 	</body>
 </html>

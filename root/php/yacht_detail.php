@@ -269,9 +269,12 @@
 						      
 								
 
+<<<<<<< HEAD
 								
 
 
+=======
+>>>>>>> diana
 
 
 						       <div class="responsive f-l w-825">

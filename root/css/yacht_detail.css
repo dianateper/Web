@@ -160,8 +160,6 @@ thead th{
 
 /*----------------------------------------------------------------PAGE - 3 -------------------------------------------------------------*/
 
-
-
 .w-825{
     width: 825px;
 }
@@ -191,7 +189,7 @@ thead th{
     margin-top: 30px;
 }
 .responsive:first-child{
-    margin-top: 87px;
+    margin-top: 103px;
 }
 .responsivertl{
  margin-top: 30px;
@@ -200,10 +198,7 @@ thead th{
     visibility: hidden;
 }
 
-#page-3 .responsive:nth-of-type(even) .slick-next{
-    visibility: hidden;
-}
-#page-3 .responsive:nth-of-type(odd) .slick-prev{
+#page-3 .responsive:nth-of-type(1) .slick-prev,#page-3 .responsive:nth-of-type(4) .slick-prev{
     visibility: hidden;
 }
 
@@ -214,42 +209,35 @@ thead th{
 
 
 
+/*-------------------------------------------------------------PHOTO GALLERY -------------------------------------------------------------------------------*/
 
+.gallery-photo-slick{
+    width: 835px;
+    margin: 0 auto;
 
+}
 
+#myModal nav{
+    margin-top: 0px;
+}
+#myModal nav a{
+    color: #FFFFFF;
+}
+#myModal nav a:hover{
+    color: #F8E0C2;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#myModal .slick-line{
+    background: #010135;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#myModal .slick-prev{
+    left: -53px;
+}
+#myModal .slick-next{
+    right: -53px;
+}
 
 #myModal .column{
     width:25%;
@@ -263,13 +251,13 @@ thead th{
  .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: black;
+  background: rgba(1, 1, 53, 0.8) url('../img/mask_circles_group.png');
 }
 
 /* Modal Content */
@@ -279,17 +267,20 @@ thead th{
   margin: auto;
   padding: 0;
   width: 90%;
-  max-width: 1200px;
+  max-width: 980px;
 }
 
 /* The Close Button */
  #myModal .close {
   color: white;
   position: absolute;
-  top: 10px;
-  right: 25px;
+  top: 100px;
+  right: 240px;
   font-size: 35px;
   font-weight: bold;
+  color: #8B97B1;
+  height: 33px;
+  z-index: 3;
 }
 
 #myModal.close:hover,
@@ -299,27 +290,8 @@ thead th{
   cursor: pointer;
 }
 
-/* Hide the slides by default */
 #myModal .mySlides {
   display: none;
-}
-
-
-
-/* Number text (1/3 etc) */
-#myModal .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Caption text */
-
-
-#myModal img.demo {
-  opacity: 0.6;
 }
 
 .active,
@@ -337,4 +309,66 @@ thead th{
 
 .myclass .column{
     width: 25%;
+}
+
+.slick-line .demo{
+    width: 60px;
+}
+
+.modal-content{
+    border: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------PAGE - 4--------------------------------------------------------------*/
+
+#page-4{
+    padding-top: 70px;
+}
+
+#page-4 .calendar{
+    width: 40%;
+    float: left;
+    height: 400px;
+}
+#page-4 .price-detail{
+    float: left;
+    width: 60%;
+}
+#page-4 p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #A8A8A8;
+}
+#page-4 .price-detail div p:last-child{
+    float: right;
+    color: #525252;
+}
+#page-4 .price-detail div p:first-child{
+    float: left;
+}
+
+.select-additional-services .drop-down-symbol{
+    border-bottom: 1px solid #525252;
+}
+.drop-down-symbol span {
+    transform: rotate(90deg);
+}
+.hide-list{
+    display: none;
+}
+.select-additional-services:hover .hide-list{
+    display: block;
 }

@@ -95,7 +95,7 @@
 			<div class="small-container">
 				<div class="yacht-detail-slide myrow">
 						 <nav>
-						        <h5><a href="#page-1" class="scrollitem ">Description</a></h5>
+						        <h5><a href="#page-1" class="scrollitem">Description</a></h5>
 						        <h5><a href="#page-2" class="scrollitem">Specifications</a></h5>
 						        <h5><a href="#page-3" class="scrollitem">Gallery</a></h5>
 						        <h5><a href="#page-4" class="scrollitem">Rent</a></h5>
@@ -294,17 +294,31 @@
 									 <div>
 									    <img src="../img/Princess/Princess_7.png" onclick="openModal();currentSlide(8)" class="hover-shadow" width="195px">
 									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_8.png" onclick="openModal();currentSlide(9)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_9.png" onclick="openModal();currentSlide(10)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_10.png" onclick="openModal();currentSlide(11)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_11.png" onclick="openModal();currentSlide(12)" class="hover-shadow" width="195px">
+									  </div>
 								</div>
 							</div>
 
 
 
 									  <div id="myModal" class="modal">
-										  <span class="close cursor" onclick="closeModal()">&times;</span>
+									  		<div>
+												<?php include 'header.php';?>		
+											</div>
+										 <span class="close cursor" onclick="closeModal()">&times;</span>
 										  <div class="modal-content">
 
 										    <div class="mySlides">
-										  
 										      <img src="../img/Princess/Princess.png">
 										    </div>
 
@@ -317,7 +331,6 @@
 										      
 										      <img src="../img/Princess/Princess_2.png" >
 										    </div>
-
 										    <div class="mySlides">
 										      
 										      <img src="../img/Princess/Princess_3.png">
@@ -335,14 +348,26 @@
 										      <img src="../img/Princess/Princess_6.png">
 										    </div>
 										     <div class="mySlides">
-										      
 										      <img src="../img/Princess/Princess_7.png">
 										    </div>
+										     <div class="mySlides">
+										      <img src="../img/Princess/Princess_8.png">
+										    </div>
+										     <div class="mySlides">
+										      <img src="../img/Princess/Princess_9.png">
+										    </div>
+										     <div class="mySlides">
+										      <img src="../img/Princess/Princess_10.png">
+										    </div>
+										     <div class="mySlides">
+										      <img src="../img/Princess/Princess_11.png">
+										    </div>
 
-										    <!-- Next/previous controls -->
 										    
 										    <!-- Thumbnail image controls -->
-										    <div class="myclass myclass">
+										    <div class="slick-line">
+										    	
+										    <div class="gallery-photo-slick">
 										    <div class="column">
 										      <img class="demo" src="../img/Princess/Princess.png" onclick="currentSlide(1)" alt="Nature">
 										    </div>
@@ -373,6 +398,62 @@
 										    <div class="column">
 										      <img class="demo" src="../img/Princess/Princess_7.png" onclick="currentSlide(8)" alt="Lights"  >
 										    </div>
+
+										     <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_8.png" onclick="currentSlide(9)" alt="Lights"  >
+										    </div>
+										     <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_9.png" onclick="currentSlide(10)" alt="Lights"  >
+										    </div>
+										     <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_10.png" onclick="currentSlide(11)" alt="Lights"  >
+										    </div>
+										     <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_11.png" onclick="currentSlide(12)" alt="Lights"  >
+										    </div>
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess.png" onclick="currentSlide(1)" alt="Nature">
+										    </div>
+										     <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_1.png" onclick="currentSlide(2)" alt="Snow" >
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_2.png" onclick="currentSlide(3)" alt="Mountains" >
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_3.png" onclick="currentSlide(4)" alt="Lights" >
+										    </div>
+										       <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_4.png" onclick="currentSlide(5)" alt="Nature">
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_5.png" onclick="currentSlide(6)" alt="Snow"  >
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_6.png" onclick="currentSlide(7)" alt="Mountains">
+										    </div>
+
+										    <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_7.png" onclick="currentSlide(8)" alt="Lights"  >
+										    </div>
+
+										     <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_8.png" onclick="currentSlide(9)" alt="Lights"  >
+										    </div>
+										     <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_9.png" onclick="currentSlide(10)" alt="Lights"  >
+										    </div>
+										     <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_10.png" onclick="currentSlide(11)" alt="Lights"  >
+										    </div>
+										     <div class="column">
+										      <img class="demo" src="../img/Princess/Princess_11.png" onclick="currentSlide(12)" alt="Lights"  >
+										    </div>
+										</div>
 										  </div>
 										  </div>
 										</div>
@@ -380,33 +461,86 @@
 
 						   
 									
-								
-
+			
 
 						     
 									<div class=" responsivertl f-r w-825" dir="rtl">
-										 <div><img src="../img/Princess/Princess_5.png" alt="" width="195px"></div>
-										  <div><img src="../img/Princess/Princess_6.png" alt="" width="195px"></div>
-										  <div><img src="../img/Princess/Princess_7.png" alt="" width="195px"></div>
-										  <div><img src="../img/Princess/Princess_8.png" alt="" width="195px" ></div>
-										  <div><img src="../img/Princess/Princess_9.png" alt="" width="195px"></div>
-										  <div><img src="../img/Princess/Princess_10.png" alt="" width="195px"></div>
-										  <div><img src="../img/Princess/Princess_11.png" alt="" width="195px"></div>
-										  <div><img src="../img/Princess/Princess.png" alt="" width="195px"></div>
+										 <div>
+									  <img src="../img/Princess/Princess.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_1.png" onclick="openModal();currentSlide(2)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_2.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_3.png" onclick="openModal();currentSlide(4)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_4.png" onclick="openModal();currentSlide(5)" class="hover-shadow" width="195px">
+									  </div>
+									 <div>
+									    <img src="../img/Princess/Princess_5.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_6.png" onclick="openModal();currentSlide(7)" class="hover-shadow" width="195px">
+									  </div>
+									 <div>
+									    <img src="../img/Princess/Princess_7.png" onclick="openModal();currentSlide(8)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_8.png" onclick="openModal();currentSlide(9)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_9.png" onclick="openModal();currentSlide(10)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_10.png" onclick="openModal();currentSlide(11)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_11.png" onclick="openModal();currentSlide(12)" class="hover-shadow" width="195px">
+									  </div>
 									</div>
 						        
 						        
 									<div class="responsive f-l w-825">
-									 <div><img src="../img/Princess/Princess_9.png" alt="" width="195px" ></div>
-									  <div><img src="../img/Princess/Princess_10.png" alt="" width="195px" ></div>
-									  <div><img src="../img/Princess/Princess_11.png" alt="" width="195px" ></div>
-									  <div><img src="../img/Princess/Princess.png" alt="" width="195px"></div>
-									  <div><img src="../img/Princess/Princess_1.png" alt="" width="195px"></div>
-									  <div><img src="../img/Princess/Princess_2.png" alt="" width="195px"></div>
-									  <div><img src="../img/Princess/Princess_3.png" alt="" width="195px" ></div>
-									  <div><img src="../img/Princess/Princess_4.png" alt="" width="195px" ></div>
-										
-
+									 <div>
+									  <img src="../img/Princess/Princess.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_1.png" onclick="openModal();currentSlide(2)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_2.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_3.png" onclick="openModal();currentSlide(4)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_4.png" onclick="openModal();currentSlide(5)" class="hover-shadow" width="195px">
+									  </div>
+									 <div>
+									    <img src="../img/Princess/Princess_5.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_6.png" onclick="openModal();currentSlide(7)" class="hover-shadow" width="195px">
+									  </div>
+									 <div>
+									    <img src="../img/Princess/Princess_7.png" onclick="openModal();currentSlide(8)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_8.png" onclick="openModal();currentSlide(9)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_9.png" onclick="openModal();currentSlide(10)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_10.png" onclick="openModal();currentSlide(11)" class="hover-shadow" width="195px">
+									  </div>
+									   <div>
+									    <img src="../img/Princess/Princess_11.png" onclick="openModal();currentSlide(12)" class="hover-shadow" width="195px">
+									  </div>
 
 						      		  </div>
 
@@ -416,22 +550,50 @@
  <!--------------------------------------------------------------------PAGE 4 ------------------------------------------------------------------->	
 						    <div id="page-4" class="page page-hide"> 
 						        <div class="small-container myrow">
-						        	<div class="calendar"></div>
-						        	<div>
-						        		<div>
+						        	<div class="calendar">calendar</div>
+						        	<div class="price-detail">
+						        		<div class="myrow">
 						        			<p>Price per day:</p>
 						        			<p>$230,000</p>
 						        		</div>
-						        		<div>
+						        		<div class="myrow">
 						        			<p></p>
 						        			<p>x2</p>
 						        		</div>
-						        		<div>
+						        		<div class="myrow">
 						        			<p>Additional services</p>
 						        			<p></p>
 						        		</div>
 						        		<div>
-						        			
+						        			<div class="additional-services">
+						        				<div class="select-additional-services myrow">
+						        					
+										
+
+													<div class="drop-down-symbol"><span>&lt;</span></div>
+																					
+
+													<div class="hide-list">
+								        					<div class="myrow">
+									        					<p>Suscipit nisl porta suspendisse</p>
+									        					<p>$2,300</p>
+										        			</div>
+										        			<div class="myrow">
+										        				<p>Arcu sapien neque netus ac vel.</p>
+										        				<p>$2,300</p>
+										        			</div>
+										        			<div class="myrow">
+										        				<p>Pellentesque elit tincidunt.</p>
+										        				<p>$2,300</p>
+										        			</div>
+										       				<div class="myrow">
+										       					<p>Turpis enim.</p>
+										       					<p>$2,300</p>
+										       				</div>
+								        				</div>
+						        				</div>
+						        				
+						        			</div>
 						        		</div>
 						        	</div>
 						        </div>
@@ -462,60 +624,6 @@
 		<script src="../js/yacht_detail.js"></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.1.1.js"></script>
 		<script type="text/javascript" src="../css/slick/slick.min.js"></script>
-
-
-
-	
-			<script>
-					// Open the Modal
-					function openModal() {
-					  document.getElementById("myModal").style.display = "block";
-					}
-
-					// Close the Modal
-					function closeModal() {
-					  document.getElementById("myModal").style.display = "none";
-					}
-
-					var slideIndex = 1;
-					showSlides(slideIndex);
-
-					// Next/previous controls
-					function plusSlides(n) {
-					  showSlides(slideIndex += n);
-					}
-
-					// Thumbnail image controls
-					function currentSlide(n) {
-					  showSlides(slideIndex = n);
-					}
-
-					function showSlides(n) {
-					  var i;
-					  var slides = document.getElementsByClassName("mySlides");
-					  var dots = document.getElementsByClassName("demo");
-					    if (n > slides.length) {slideIndex = 1}
-					  if (n < 1) {slideIndex = slides.length}
-					  for (i = 0; i < slides.length; i++) {
-					    slides[i].style.display = "none";
-					  }
-					  for (i = 0; i < dots.length; i++) {
-					    dots[i].className = dots[i].className.replace(" active", "");
-					  }
-					  slides[slideIndex-1].style.display = "block";
-					  dots[slideIndex-1].className += " active";
-					}
-
-
-					$(document).ready(function(){
-					  $('.myclass').slick({
-					  slidesToShow:4,
-					  slidesToScroll: 4,
-					  dots:true,
-					  centerMode: true,
-					  });
-					});
-			</script>
 
 
 	</body>

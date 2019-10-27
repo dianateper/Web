@@ -17,9 +17,20 @@ $(document).ready(function () {
         $('#hide4').slideToggle(400);
     });
 
+    let count = 0;
 
     $("#btn-hide").click(function (e) {
         e.preventDefault();
+        if (count === 0) {
+            $("#text-hide").text("Hide");
+            $("#form-btn").css('visibility', "hidden");
+            count++;
+        } else {
+            $("#text-hide").text("Show");
+            $("#form-btn").css('visibility', "visible");
+            count = 0;
+        }
+        
         $('#specifications').slideToggle(400);
     });
 });

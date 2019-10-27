@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="..\css\footer.css" type="text/css"/>
 	<link rel="stylesheet" href="..\css\style.css" type="text/css">
     <link rel="stylesheet" href="../css/yachtFind.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
 </head>
 <body>
@@ -42,15 +43,117 @@
         <div class="containerY">
             <div class="find-caption caption">FIND YOUR CHOICE</div>
             <form action="">
-                <label for="search" class="yachts-flex label">You can search by name<input type="text" name="search" class="form-search"></label>
-                <label for="data" class="yachts-flex label">Choose dates<input type="date" name="data" id=""></label>
-                <label for="price" class="yachts-flex label">Enter price range<div><input type="number"><input type="number"></div></label>
-                <label for="services" class="yachts-flex label">Additional services<select name="services" id=""></select></label>
-                <div class="yachts-flex align-items-center">
-                    <a href="#" id="btn-hide" class="btn-hide">&bull;&bull;&bull;<span class="control-arrow">></span>&#8195;Show filters by specifications</a>
+                <label for="search" class="yachts-flex label position-relative">
+                    You can search by name
+                    <input type="text" name="search" class="input input-1 form-search">
+                    <i class="fa fa-search position-absolute"></i>
+                </label>
+                <label for="data" class="yachts-flex label">
+                    Choose dates
+                    <div class="w-55"><input type="date" name="data" class="input input-2"><span class="input-point">&bull;&bull;&bull;</span><input type="date" name="data" class="input input-2"></div>
+                </label>
+                <label for="price" class="yachts-flex label">
+                    Enter price range
+                    <div class="w-55"><input type="number" class="input input-2"><span class="input-point">&bull;&bull;&bull;</span><input type="number" class="input input-2"></div>
+                </label>
+                <label for="services" class="yachts-flex label">
+                    Additional services
+                    <select name="services" class="input input-1 select">
+                        <option></option>
+                        <option>Lorem ipsum dolor sit amet</option>
+                        <option>Consectetur adipiscing elit</option>
+                        <option>Lacus, fusce in vel dolor</option>
+                        <option>Tortor pellentesque vestibulum</option>
+                    </select>
+                </label>
+                <div class="yachts-flex align-items-center mb-4">
+                    <a href="#" id="btn-hide" class="btn-hide">&bull;&bull;&bull;<span class="control-arrow">></span>&#8195;<span id="text-hide">Show</span>&nbsp;filters by specifications</a>
                     <button type="submit" id="form-btn" class="form-btn">FIND!</button>
                 </div>
-                <div id="specifications"> sdgsg</div>
+
+
+                <div id="specifications">
+                    <div class="yachts-flex">
+                        <label for="Manufacturer" class="yachts-flex label label-hide">
+                            Manufacturer
+                            <select name="Manufacturer" class="input input-1 select">
+                                <option></option>
+                                <option>Bertram</option>
+                                <option>Boston Whaler</option>
+                                <option>Chaparral</option>
+                                <option>MasterCraft</option>
+                            </select>
+                        </label>
+                        <label for="type" class="yachts-flex label label-hide">
+                            Boat type
+                            <select name="type" class="input input-1 select">
+                                <option></option>
+                                <option>Bowrider</option>
+                                <option>Catamaran</option>
+                                <option>Fishing</option>
+                                <option>Houseboats</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="yachts-flex">
+                        <label for="Category" class="yachts-flex label label-hide">
+                            Length(FT)
+                            <div class="w-55"><input type="number" class="input input-2-hide"><span class="input-point">&bull;&bull;&bull;</span><input type="number" class="input input-2-hide"></div>
+                        </label>
+                        <label for="Engine" class="yachts-flex label label-hide">
+                            Engine type
+                            <select name="Engine" class="input input-1 select">
+                                <option></option>
+                                <option>Outboard</option>
+                                <option>Inboard</option>
+                                <option>Stern drive</option>
+                                <option>Jet</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="yachts-flex">
+                        <label for="Category" class="yachts-flex label label-hide">
+                            Year
+                            <div class="w-55"><input type="number" class="input input-2-hide"><span class="input-point">&bull;&bull;&bull;</span><input type="number" class="input input-2-hide"></div>
+                        </label>
+                        <label for="Drive" class="yachts-flex label label-hide">
+                            Drive type
+                            <select name="Drive" class="input input-1 select">
+                                <option></option>
+                                <option>Surface</option>
+                                <option>Jet</option>
+                                <option>Pod</option>
+                                <option>Sterndrives</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="yachts-flex mb-4">
+                        <label for="Category" class="yachts-flex label label-hide">
+                            Category
+                            <select name="Category" class="input input-1 select">
+                                <option></option>
+                                <option>Helicat</option>
+                                <option>Safari</option>
+                                <option>Fautasi</option>
+                                <option>Shallop</option>
+                            </select>
+                        </label>
+                        <label for="Fuel" class="yachts-flex label label-hide">
+                            Fuel type
+                            <select name="Fuel" class="input input-1 select">
+                                <option></option>
+                                <option>Ethanol</option>
+                                <option>Gas</option>
+                                <option>Ethanol-blended</option>
+                                <option>Petrol</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="yachts-flex mb-4"><i></i><button type="submit" id="form-btn" class="form-btn">FIND!</button></div>
+                </div>
             </form>
         </div>
     </section>

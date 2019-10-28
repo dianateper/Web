@@ -556,10 +556,7 @@
 						        			<p>Price per day:</p>
 						        			<p>$230,000</p>
 						        		</div>
-						        		<div class="myrow">
-						        			<p></p>
-						        			<p>x2</p>
-						        		</div>
+						    
 						        		<div class="myrow">
 						        			<p>Additional services</p>
 						        			<p></p>
@@ -570,7 +567,7 @@
 						        					
 										
 
-													<div class="drop-down-symbol"><span>&lt;</span></div>
+													<div class="drop-down-symbol myrow"><span class="symbol">&lt;</span></div>
 																					
 
 													<div class="hide-list">
@@ -594,6 +591,11 @@
 						        				</div>
 						        				
 						        			</div>
+						        		</div>
+						        		
+						        		<div>
+						        			<p></p>
+						        			<p class="rent-button"><a href="">Rent it!</a></p>
 						        		</div>
 						        	</div>
 						        </div>

@@ -101,6 +101,12 @@
     text-decoration: none;
 }
 
+.fa, .fa-search {
+    right: 1%;
+    color: #525252;
+    font-weight: 300;
+}
+
 .form-btn {
     font-family: 'Monserrat', sans-serif;
     font-size: 24px;
@@ -122,6 +128,49 @@
     color: #a8a8a8;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+}
+
+.label-hide {
+    width: 45%;
+}
+
+.input {
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 0.5px solid rgb(22, 22, 22);
+}
+
+.input-1 {
+    width: 55%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.input-point {
+    margin: 0 3%;
+    width: 4%;
+    color: #525252;
+}
+
+.select {
+    background: #f8e0c2 url("../img/down_arrow.png") 100% center no-repeat;
+    cursor: pointer;
+    color: transparent;
+}
+
+.select > option {
+    color: #525252;
+}
+
+.input-2 {
+    width: 45%;
+}
+
+.input-2-hide {
+    width: 43%;
 }
 
 .about {

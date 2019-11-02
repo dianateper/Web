@@ -333,15 +333,22 @@ thead th{
 
 
 #page-4 .calendar{
-    width: 50%;
+   width: 40%;
     float: left;
     height: 400px;
 }
 #page-4 .price-detail{
     float: right;
     width:50%;
+   
 }
 
+.price-detail>div:first-child{
+    margin-bottom: 20px;
+}
+#page-4{
+    padding-top: 65px;
+}
 #page-4 p{
     font-family: Open Sans;
     font-style: normal;
@@ -350,6 +357,8 @@ thead th{
     line-height: 27px;
     color: #A8A8A8;
 }
+
+
 #page-4 .price-detail div p:last-child, #page-4 .hide-list div p:last-child{
     float: right;
     color: #525252;
@@ -357,6 +366,7 @@ thead th{
 #page-4 .price-detail div p:first-child,#page-4 .hide-list div p:first-child{
     float: left;
 }
+
 .select-additional-services{
     position: relative;
     margin-top: 10px;
@@ -365,18 +375,19 @@ thead th{
     border-bottom: 1px solid #525252;
 }
 .drop-down-symbol .symbol{
-    display: inline-block;
-    transform: rotate(-90deg);
+
+}
+.drop-down-img{
     float: right;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    color: #525252;
-    font-weight: bold;
 }
 .hide-list{
     visibility: hidden;
     position: absolute;
     width: 100%;
+
+}
+.final{
+    margin-top: 100px;
 }
 .select-additional-services:hover .hide-list{
     visibility: visible;
@@ -401,5 +412,32 @@ thead th{
    
 }
 .rent-button{
-     margin-top: 176px;
+     margin-top: 100px;
 }
+
+
+
+
+
+.gist-file{
+    display: none;
+}
+
+
+
+.lightpick__toolbar {
+    position: relative;
+}
+
+.lightpick__previous-action, .lightpick__next-action{
+    position: absolute;
+    top: 8px;
+}
+
+.lightpick__previous-action{
+    left: -295px;
+}
+.lightpick__next-action{
+    left: -30px;
+}
+

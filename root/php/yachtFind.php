@@ -20,20 +20,97 @@
 	</div>
     <!--------------------------------------END Header------------------------------------------------------------->
     <section class="yachts">
-        <!-- <div class="yachts-text yachts-text1">YACHTS</div>
-        <div class="yachts-text yachts-text2">YACHTS</div> -->
+        <div class="yachts-text yachts-text1">YACHTS</div>
+        <div class="yachts-text yachts-text2">YACHTS</div>
         <div class="containerY">
             <div class="yachts-flex">
                 <div class="yachts-caption caption">YACHTS FOR CHARTER</div>
                 <div class="yachts-data">01/06</div>
             </div>
             <div>
-                <div class="yachts-sliderrr">
-                    <div class="cardd"></div>
+                <div class="yachts-slider" >
+                    <div id="carouselExampleControls" class="carousel slide slider1" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/Marinette/Mariette.png" class="d-block w-100 mb-3" alt="">
+                                <div class="flex mb-1 slider-caption"><div>1987 Marinette 41 Aft Cabin</div><div>$230.000</div></div>
+                                <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                                <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                                <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Marquis/Marquis.png" class="d-block w-100 mb-3" alt="">
+                                <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                                <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                                <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                                <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Princess/Princess.png" class="d-block w-100 mb-3" alt="">
+                                <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                                <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                                <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                                <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Cruisers/Cruisers.png" class="d-block w-100 mb-3" alt="">
+                                <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                                <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                                <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                                <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Lazzara/Lazzara.png" class="d-block w-100 mb-3" alt="">
+                                <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                                <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                                <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                                <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselExampleControls" class="carousel slide slider2" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/Marquis/Marquis.png" class="d-block w-100 mb-3" alt="">
+                                <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                                <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                                <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                                <div class="flex"><div></div><a href="" class="slider-link1">Rent it!</a></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Princess/Princess.png" class="d-block w-100 mb-3" alt="">
+                                <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                                <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                                <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                                <div class="flex"><div></div><a href="" class="slider-link1">Rent it!</a></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Cruisers/Cruisers.png" class="d-block w-100 mb-3" alt="">
+                                <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                                <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                                <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                                <div class="flex"><div></div><a href="" class="slider-link1">Rent it!</a></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Lazzara/Lazzara.png" class="d-block w-100 mb-3" alt="">
+                                <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                                <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                                <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                                <div class="flex"><div></div><a href="" class="slider-link1">Rent it!</a></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Marinette/Mariette.png" class="d-block w-100 mb-3" alt="">
+                                <div class="flex mb-1 slider-caption"><div>1987 Marinette 41 Aft Cabin</div><div>$230.000</div></div>
+                                <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                                <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                                <div class="flex"><div></div><a href="" class="slider-link1">Rent it!</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="yachts-flex">
-                    <a href="#" class="control"><span class="control-arrow"><</span>&bull;&bull;&bull;&#8195;Previous</a>
-                    <a href="#" class="control">Next&#8195;&bull;&bull;&bull;<span class="control-arrow">></span></a>
+                    <a class="control" href="#carouselExampleControls" role="button" data-slide="prev"><span class="control-arrow"><</span>&bull;&bull;&bull;&#8195;Previous</a>
+                    <a class="control" href="#carouselExampleControls" role="button" data-slide="next">Next&#8195;&bull;&bull;&bull;<span class="control-arrow">></span></a>
                 </div>
             </div>
         </div>

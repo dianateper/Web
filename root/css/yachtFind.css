@@ -37,6 +37,52 @@
     left: -200px;
 }
 
+.yachts-slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider1 {
+    flex-basis: 55%;
+}
+
+.slider2 {
+    flex-basis: 40%;
+}
+
+.slider-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #525252;
+}
+
+.slider-description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #A8A8A8;
+}
+
+.slider-link {
+    padding: 10px 25px;
+    background-color: #036D7D;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.slider-link1 {
+    padding: 8px 25px;
+    background-color: #036D7D;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
 .yachts-flex {
     display: flex;
     justify-content: space-between;
@@ -52,10 +98,10 @@
     line-height: 45px;
     color: #A8A8A8;
 }
-/*jkkkkkkkkkkkkkkkkkkkkkkkkkkkdddddddddddddddddddddddddddddddddddddddddddddddddddkkkkh*/
 
-.card {
-    
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 .control {
@@ -156,12 +202,8 @@
 }
 
 .select {
-    background: #f8e0c2 url("../img/down_arrow.png") 100% center no-repeat;
+    background: #f8e0c2; /* url("../img/down_arrow.png") 100% center no-repeat */
     cursor: pointer;
-    color: transparent;
-}
-
-.select > option {
     color: #525252;
 }
 

@@ -9,6 +9,13 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
+
+
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    	<link rel="stylesheet" type="text/css" href="../css/datepicker/lightpick.css">
+
+
 		<link rel="stylesheet" type="text/css" href="../css/slick/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/slick/slick-theme.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.css">
@@ -19,6 +26,7 @@
 		<link rel="stylesheet" href="..\css\style.css" type="text/css">
 		<link rel="stylesheet" href="..\css\yacht_detail.css" type="text/css">
 		
+
 
 	<body>
 		<!--------------------------------------Header------------------------------------------------------------->
@@ -550,16 +558,30 @@
  <!--------------------------------------------------------------------PAGE 4 ------------------------------------------------------------------->	
 						    <div id="page-4" class="page page-hide"> 
 						        <div class="small-container myrow">
-						        	<div class="calendar">calendar</div>
+						        	<div class="calendar">
+						                <div>
+						                    <div class="myrow">
+						                        <div>
+						                            <p id="result-1"></p>
+						                            <div class="d-flex">
+							                            <div id="demo1"></div>
+							                            <div id="demo2"></div>
+						                       		 </div>
+						                        </div>    
+						                    </div>
+						                </div>
+												        	
+						        	</div>
 						        	<div class="price-detail">
 						        		<div class="myrow">
 						        			<p>Price per day:</p>
-						        			<p>$230,000</p>
+						        			<p id="cost">$230,000</p>
 						        		</div>
-						        		<div class="myrow">
+						        		<div>
 						        			<p></p>
-						        			<p>x2</p>
+						        			<p id="count"></p>
 						        		</div>
+						    
 						        		<div class="myrow">
 						        			<p>Additional services</p>
 						        			<p></p>
@@ -568,32 +590,40 @@
 						        			<div class="additional-services">
 						        				<div class="select-additional-services myrow">
 						        					
-										
-
-													<div class="drop-down-symbol"><span>&lt;</span></div>
+													<div class="drop-down-symbol myrow"><div id="pick-element"></div><div class="drop-down-img"><img src="../img/down_arrow.png" alt=""></div></div>
 																					
 
 													<div class="hide-list">
-								        					<div class="myrow">
+								        					<div class="myrow" onclick="addServices(1);">
 									        					<p>Suscipit nisl porta suspendisse</p>
 									        					<p>$2,300</p>
 										        			</div>
-										        			<div class="myrow">
+										        			<div class="myrow" onclick="addServices(2);">
 										        				<p>Arcu sapien neque netus ac vel.</p>
-										        				<p>$2,300</p>
+										        				<p>$1,200</p>
 										        			</div>
-										        			<div class="myrow">
+										        			<div class="myrow" onclick="addServices(3);">
 										        				<p>Pellentesque elit tincidunt.</p>
-										        				<p>$2,300</p>
+										        				<p>$3,400</p>
 										        			</div>
-										       				<div class="myrow">
+										       				<div class="myrow" onclick="addServices(4);">
 										       					<p>Turpis enim.</p>
-										       					<p>$2,300</p>
+										       					<p>$7,500</p>
 										       				</div>
 								        				</div>
 						        				</div>
 						        				
 						        			</div>
+						        		</div>
+						        		<div class="final">
+						        			<div>
+						        				<p>Final total: </p>
+						        				<p id="totalPrice"></p>
+						        			</div>
+						        		</div>
+						        		<div >
+						        			<p></p>
+						        			<p class="rent-button"><a href="">Rent it!</a></p>
 						        		</div>
 						        	</div>
 						        </div>
@@ -626,5 +656,54 @@
 		<script type="text/javascript" src="../css/slick/slick.min.js"></script>
 
 
+
+
+		<script async src="https://buttons.github.io/buttons.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	    <script src="../js/datepicker/lightpick.js"></script>
+	    <script src="../js/datepicker/demo.js"></script>
+
+
+
+	    <script>
+
+	    	var totalPrice=230000;
+	    	var countDay = 1;
+	    	document.getElementById('totalPrice').innerHTML = String("$"+totalPrice);
+	    	
+	    	var boolPrice = [1,1,1,1];
+	    	var prices = [2300, 1200, 3400, 7500];
+
+	    	function addServices(idx){
+	    		
+	    		if(boolPrice[idx-1]==1)
+	    		{
+	    		totalPrice  = totalPrice + prices[idx-1];
+	    		boolPrice[idx - 1] = 0;
+	    		var pagePrice = document.getElementById('totalPrice');
+	    		pagePrice.innerHTML = String("$"+totalPrice);
+	    	}
+	    	}
+
+	    	function showDate(start,end){
+	    
+	    		console.log(start.toString('YYYY-MM-DD'));
+	    		console.log(end.toString('YYYY-MM-DD'));
+
+	    		day = Math.abs(start - end);
+	    		console.log(day/60/60/24/1000);
+	    		countDay = day/60/60/24/1000 +1;
+	    		document.getElementById('count').innerHTML='x'+countDay;
+
+	    		//кожний раз змінюється при обранні дати
+	    		totalPrice  = totalPrice * countDay;
+	    		var pagePrice = document.getElementById('totalPrice');
+	    		pagePrice.innerHTML = String("$"+totalPrice);
+
+
+	    	}
+
+
+	    </script>
 	</body>
 </html>

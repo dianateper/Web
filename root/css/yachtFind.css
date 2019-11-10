@@ -37,19 +37,6 @@
     left: -200px;
 }
 
-.yachts-slider {
-    display: flex;
-    justify-content: space-between;
-}
-
-.slider1 {
-    flex-basis: 55%;
-}
-
-.slider2 {
-    flex-basis: 40%;
-}
-
 .slider-caption {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -63,17 +50,29 @@
     color: #A8A8A8;
 }
 
-.slider-link {
-    padding: 10px 25px;
-    background-color: #036D7D;
-    border-radius: 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    color: #ffffff;
+#carouselFind {
+    overflow: hidden;
+    width: 100%;
 }
 
-.slider-link1 {
+.carousel {
+    width: 2700px;
+    height: 572px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.active .slider-link {
+    font-size: 24px;
+    padding: 10px 25px;
+}
+
+.item-slider {
+    width: 470px;
+    position: relative;
+}
+
+.slider-link {
     padding: 8px 25px;
     background-color: #036D7D;
     border-radius: 50px;
@@ -82,6 +81,7 @@
     font-size: 20px;
     color: #ffffff;
 }
+
 
 .yachts-flex {
     display: flex;

@@ -30,8 +30,40 @@ $(document).ready(function () {
             $("#form-btn").css('visibility', "visible");
             count = 0;
         }
-        
+
         $('#specifications').slideToggle(400);
     });
-});
 
+    $(function slider() {
+        $("#carouselFind .item-slider:first-child").addClass("active").animate({ 'width': '650px' }, 0);
+
+        function currentSlide(target) {
+            $("#carouselFind .item-slider").animate({ 'width': '470px', 'right': 510 * target + 'px' }, 400);
+            $("#carouselFind .item-slider").removeClass("active").eq(target).addClass("active").animate({ 'width': '650px' }, 400);
+        }
+
+        $("#prev").click(function (e) {
+            e.preventDefault();
+            let target = $("#carouselFind .active").index();
+            if (target === 0) {
+                target = $("#carouselFind .item-slider").length - 2;
+            }
+            else {
+                target = target - 1;
+            }
+            currentSlide(target);
+        });
+
+        $("#next").click(function (e) {
+            e.preventDefault();
+            let target = $("#carouselFind .active").index();
+            if (target === $("#carouselFind .item-slider").length - 2) {
+                target = 0;
+            }
+            else {
+                target = target + 1;
+            }
+            currentSlide(target);
+        });
+    });
+});

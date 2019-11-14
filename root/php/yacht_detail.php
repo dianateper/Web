@@ -9,7 +9,10 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Almarai&display=swap" rel="stylesheet">
 
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -612,7 +615,10 @@
 										       				</div>
 								        				</div>
 						        				</div>
-						        				
+						        				<div id="arrayButton">
+
+						        				</div>
+
 						        			</div>
 						        		</div>
 						        		<div class="final">
@@ -667,6 +673,8 @@
 
 	    <script>
 
+	    	var oldDay=1;
+
 	    	var totalPrice=230000;
 	    	var countDay = 1;
 	    	document.getElementById('totalPrice').innerHTML = String("$"+totalPrice);
@@ -678,15 +686,15 @@
 	    		
 	    		if(boolPrice[idx-1]==1)
 	    		{
-	    		totalPrice  = totalPrice + prices[idx-1];
-	    		boolPrice[idx - 1] = 0;
-	    		var pagePrice = document.getElementById('totalPrice');
-	    		pagePrice.innerHTML = String("$"+totalPrice);
-	    	}
+	    			totalPrice  = totalPrice + prices[idx-1];
+	    			boolPrice[idx - 1] = 0;
+	    			var pagePrice = document.getElementById('totalPrice');
+	    			pagePrice.innerHTML = String(totalPrice);
+	    			createButtonReset(idx-1);
+	    		}
 	    	}
 
 	    	function showDate(start,end){
-	    
 	    		console.log(start.toString('YYYY-MM-DD'));
 	    		console.log(end.toString('YYYY-MM-DD'));
 
@@ -694,13 +702,49 @@
 	    		console.log(day/60/60/24/1000);
 	    		countDay = day/60/60/24/1000 +1;
 	    		document.getElementById('count').innerHTML='x'+countDay;
+	    		
+	    		var tempSumDif = 0;
+	    		var tempSumAdd = 0;
+		    	totalPrice  = totalPrice * countDay;
+		    	for (var i = 0; i< boolPrice.length; i++) {
+		    		if(boolPrice[i]==1)
+		    		{
+		    			tempSum = tempSum  + prices[i];
+		    		}
+		    		if(boolPrice[i]==0){
+		    			tempSumAdd = tempSumAdd + prices[i];
+		    		}
+		    	}
 
-	    		//кожний раз змінюється при обранні дати
-	    		totalPrice  = totalPrice * countDay;
-	    		var pagePrice = document.getElementById('totalPrice');
-	    		pagePrice.innerHTML = String("$"+totalPrice);
+		    	console.log(boolPrice);
+		    	console.log(tempSum);
+	    		totalPrice = (totalPrice - tempSum)/oldDay + tempSum; 
+	    	
+		    	var pagePrice = document.getElementById('totalPrice');
+		    	pagePrice.innerHTML = String(totalPrice);
 
+		    	oldDay = countDay;
+		    	
+	    	}
 
+	    	function createButtonReset(i){
+	    		var newHtml  = '<div class="reset" id="button-'+ i + '">Donec me. <span class="delete-button" onclick="deleteButtonReset()"><img src="../img/yacht_detail/delete-button.png" alt=""></span></div>';
+	    		console.log(newHtml);
+	    		document.getElementById("arrayButton").innerHTML = document.getElementById("arrayButton").innerHTML+ newHtml;
+	    	}
+
+	    	function deleteButtonReset(){
+	    		
+	    		for (var i = 0; i<boolPrice.length; i++) {
+	    			if(boolPrice[i]==0){
+	    				boolPrice[i] = 1;
+	    				var button = document.getElementById('button-' + (i));
+	    				button.remove();
+	    				document.getElementById('totalPrice').innerHTML =  +(parseFloat(document.getElementById('totalPrice').innerHTML) - prices[i]);
+	    				break;	
+	    			}
+	    		}
+	    		console.log(boolPrice);
 	    	}
 
 

@@ -1257,17 +1257,14 @@
             var opts = this._opts;
 
             this.hide();
-
             this.el.removeEventListener('mousedown', self._onMouseDown, true);
             this.el.removeEventListener('mouseenter', self._onMouseEnter, true);
             this.el.removeEventListener('touchend', self._onMouseDown, true);
             this.el.removeEventListener('change', self._onChange, true);
-
             opts.field.removeEventListener('change', this._onInputChange);
             opts.field.removeEventListener('click', this._onInputClick);
             opts.field.removeEventListener('focus', this._onInputFocus);
-
-            if (opts.secondField) {
+             if (opts.secondField) {
                 opts.secondField.removeEventListener('change', this._onInputChange);
                 opts.secondField.removeEventListener('click', this._onInputClick);
                 opts.secondField.removeEventListener('focus', this._onInputFocus);
@@ -1282,13 +1279,10 @@
         {
             this.setStartDate(null, true);
             this.setEndDate(null, true);
-
             updateDates(this.el, this._opts);
-
             if (typeof this._opts.onSelect === 'function') {
                 this._opts.onSelect.call(this, this.getStartDate(), this.getEndDate());
             }
-
             this.el.querySelector('.lightpick__tooltip').style.visibility = 'hidden';
         },
 

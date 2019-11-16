@@ -124,14 +124,14 @@
 					<img src="..\img\index\Group5.png"  id="img-map">
 					
 					<map name="yachtmap">
-					  	<area shape="rect" coords="0,0,228,265" href="yacht_detail.php" alt="Cruisers" id="Cruisers">
-					 	<area shape="rect" coords="228,0,512,128" href="yacht_detail.php" alt="Californian" id="Californian">
-					 	<area shape="rect" coords="512,0,965,265" href="yacht_detail.php" alt="Cruisers" id="Cruisers-new">
-					 	<area shape="rect" coords="965,0,1262,344" href="yacht_detail.php" alt="Marinette" id="Marinette">
-					 	<area shape="rect" coords="228,128,512,265" href="yacht_detail.php" alt="Sun" id="SeaRay">
-					 	<area shape="rect" coords="0,265,512,510" href="yacht_detail.php" alt="Princess" id="Princess">
-					 	<area shape="rect" coords="512,343,817,510" href="yacht_detail.php" alt="Lazzara" id="Lazzara">
-					 	<area shape="rect" coords="816,343,1169,510" href="yacht_detail.php" alt="Marquis" id="Marquis">
+					  	<area shape="rect" coords="0,0,228,265" href="#" alt="Cruisers" id="Cruisers">
+					 	<area shape="rect" coords="228,0,512,128" href="#" alt="Californian" id="Californian">
+					 	<area shape="rect" coords="512,0,965,265" href="#" alt="Cruisers" id="Cruisers-new">
+					 	<area shape="rect" coords="965,0,1262,344" href="#" alt="Marinette" id="Marinette">
+					 	<area shape="rect" coords="228,128,512,265" href="#" alt="Sun" id="SeaRay">
+					 	<area shape="rect" coords="0,265,512,510" href="#" alt="Princess" id="Princess">
+					 	<area shape="rect" coords="512,343,817,510" href="#" alt="Lazzara" id="Lazzara">
+					 	<area shape="rect" coords="816,343,1169,510" href="#" alt="Marquis" id="Marquis">
 					</map>
 
 

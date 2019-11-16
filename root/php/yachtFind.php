@@ -6,12 +6,6 @@
     <title>FIND</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Almarai&display=swap" rel="stylesheet">
-        
     <link rel="stylesheet" href="../css/reset.css" type="text/css">
     <link rel="stylesheet" href="..\css\header.css" type="text/css"/>
 	<link rel="stylesheet" href="..\css\footer.css" type="text/css"/>
@@ -23,7 +17,7 @@
 <body>
 	<div>
 		<?php include 'header.php';?>		
-	</div>
+    </div>
     <!--------------------------------------END Header------------------------------------------------------------->
     <section class="yachts">
         <div class="yachts-text yachts-text1">YACHTS</div>
@@ -34,6 +28,17 @@
                 <div class="yachts-data">01/06</div>
             </div>
             <div>
+                <!-- <div class="modal-find2" id="modal2">
+                    <div class="modal-header"><h2>Order’s details</h2></div>
+                    <div class="modal-form2">
+                        <div class="flex modal2-form numberPeople">Number of people<input type="number"></div>
+                        <div class="flex modal2-form aditional">Additional information<input type="text"></div>
+                        <div class="flex">
+                            <a href="#" class="modal-btn btn-cancel cancel">Cancel</a>
+                            <a href="#" class="modal-btn btn-rent cancel">Submit</a>
+                        </div>
+                    </div> 
+                </div> -->
                 <div id="carouselFind">
                     <div class="carousel">
                         <div class="item-slider">                                  
@@ -41,35 +46,42 @@
                             <div class="flex mb-1 slider-caption"><div>1987 Marinette 41 Aft Cabin</div><div>$230.000</div></div>
                             <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
                             <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
-                            <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            <div class="flex"><i></i><a href="#" class="slider-link">Rent it!</a></div>
                         </div>
                         <div class="item-slider">   
                             <img src="../img/Marquis/Marquis.png" class="d-block w-100 mb-3" alt="">
                             <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
                             <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
                             <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
-                            <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            <div class="flex"><i></i><a href="#" class="slider-link">Rent it!</a></div>
                         </div>
                         <div class="item-slider">   
                             <img src="../img/Princess/Princess.png" class="d-block w-100 mb-3" alt="">
-                            <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                            <div class="flex mb-1 slider-caption"><div>2003 Princess 23 Skylounge</div><div>$230.000</div></div>
                             <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
                             <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
-                            <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            <div class="flex"><i></i><a href="" class="slider-link">Rent it!</a></div>
                         </div>
                         <div class="item-slider">   
                             <img src="../img/Cruisers/Cruisers.png" class="d-block w-100 mb-3" alt="">
-                            <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                            <div class="flex mb-1 slider-caption"><div>2002 Cruisers 60 Skylounge</div><div>$230.000</div></div>
                             <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
                             <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
-                            <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            <div class="flex"><i></i><a href="#" class="slider-link">Rent it!</a></div>
                         </div>
                         <div class="item-slider">   
                             <img src="../img/Lazzara/Lazzara.png" class="d-block w-100 mb-3" alt="">
-                            <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                            <div class="flex mb-1 slider-caption"><div>2006 Lazzara 30 Skylounge</div><div>$230.000</div></div>
                             <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
                             <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
-                            <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            <div class="flex"><i></i><a href="#" class="slider-link">Rent it!</a></div>
+                        </div>
+                        <div class="item-slider">   
+                            <img src="../img/Californian/Californian.png" class="d-block w-100 mb-3" alt="">
+                            <div class="flex mb-1 slider-caption"><div>2000 Californian 5 Skylounge</div><div>$230.000</div></div>
+                            <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                            <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                            <div class="flex"><i></i><a href="#" class="slider-link">Rent it!</a></div>
                         </div>
                     </div>
                 </div>
@@ -250,9 +262,9 @@
 	</div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="../js/find.js"></script>
+    <script src="../js/modalFind.js"></script>
 </body>
 </html>

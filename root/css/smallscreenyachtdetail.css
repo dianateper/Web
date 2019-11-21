@@ -1,0 +1,130 @@
+
+/*------------------------------------------------yacht_detail.php--------------------------------------------------------------*/
+
+.rect{
+	top: 680px;
+}
+
+.rect-blue{
+	top: 1085px;
+}
+ .scrollitem img{
+  display: inline;
+  padding-right: 15px;
+ }
+.yacht-detail-slide nav h5 {
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+.yacht-detail-slide nav {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.small-menu{
+	width: 17px;
+	height: 17px;
+}
+h3{
+	font-size: 40px;
+}
+
+.small-container {
+	width: 100%;
+}
+#page-1 p, #page-2 table{
+	width: 380px;
+	margin: 0 auto;
+}
+#page-2 table{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+#page-2 table td:first-child{
+	padding-right: 50px;
+}
+#page-1 p:nth-of-type(2), #page-1 p:nth-of-type(3){
+	margin-top: 55px;
+}
+
+#slide-arrow{
+	display: none;
+}
+
+.yacht-detail-slide nav{
+	flex-direction: column;
+}
+
+.small-container .carousel-inner img, #page-4 .price-detail{
+	width: 100%;
+}
+
+#page-4 .small-container{
+	display: flex;
+	flex-direction: column;
+}
+#page-4{
+	margin: auto;
+}
+
+#page-4 .calendar,.responsivertl,.w-825{
+	width: 100%;
+}
+
+.yacht-detail-table{
+	display: none;
+}
+.yacht-detail-table-small{
+	display: block;
+}
+
+.slider{
+	display: block;
+
+}
+.f-r{
+	float: left;
+}
+
+
+#page-3 img{
+  width: 254px;
+  margin: 0 auto;
+}
+
+
+ .rect-blue{
+	top: 920px;
+	height: 145px;
+}
+ .rect-dark-blue {
+	top: 765px;
+	height: 200px;
+}
+ .rect-dark-blue-next{
+	top: 1160px;
+}
+.responsive:first-child {
+     margin-top: 103px; 
+}
+
+.slick-line{
+	display: none;
+}
+
+#myModal .close {
+    top: 100px;
+    right: 10px
+}
+
+
+ #page-4 .price-detail{
+ 	width: 335px;
+ 	margin: 0 auto;
+ }
+ #page-4 {
+    padding-top: 50px;
+}

@@ -1,4 +1,6 @@
-
+.d-n{
+	display: block;
+}
 p{
 	font-family: Open Sans;
 	font-style: normal;
@@ -361,7 +363,7 @@ video{
 
 .flex-section-watch{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .watch-section{

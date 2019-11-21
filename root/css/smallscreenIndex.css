@@ -1,0 +1,49 @@
+
+/*------------------------------------------------INDEX.php--------------------------------------------------------------*/
+.map-photo{
+	display: none;
+}
+
+.article-section {
+	
+	margin: 0 auto;
+}
+.article-section article{
+	margin: 0 auto;
+}
+
+.flex-section-watch{
+	flex-direction: column;
+}
+.orange-rectangle{
+	top: 45px;
+}
+.video-section .bg-text:nth-of-type(1){
+	top: 0px;
+}
+.video-section .bg-text:nth-of-type(2){
+	top: 400px;
+}
+.watch-section p{
+	margin-bottom: 20px;
+}
+.watch-section{
+	padding-bottom: 100px;
+}
+
+.watch-section h3{
+	margin-top: 0px;
+}
+article p{
+	margin-bottom: 30px;
+}
+
+article h5:first-child{
+	margin-top: 50px;
+}
+.video-section p {
+	margin-bottom: 50px;
+
+}
+
+

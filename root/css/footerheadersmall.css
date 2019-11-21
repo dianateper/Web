@@ -1,0 +1,27 @@
+
+.mycontainer{
+	width: 100%;
+}
+
+body{
+	width: 100%;
+}
+.d-n{
+	display: none;
+}
+
+.navigator{
+	margin: 0 auto;
+}
+.sing-buttond{
+	float: right;
+}
+.navigator{
+	
+	align-content: center;
+}
+
+
+.contact{
+	display: none;
+}

@@ -60,7 +60,11 @@ a.selected{
 	 visibility: hidden;
 }
 
- 
+ .scrollitem img{
+  display: none;
+ }
+
+
 /*-----------------------------------------------page - 1  -----------------------------------------------------------------------------------*/
 p, thead{
     font-family: Montserrat;
@@ -95,6 +99,9 @@ p, thead{
 .yacht-detail-table{
     position: relative;
     margin-bottom: 50px;
+}
+.yacht-detail-table-small{
+  display: none;
 }
 
 .rect{
@@ -160,6 +167,16 @@ thead th{
 
 /*----------------------------------------------------------------PAGE - 3 -------------------------------------------------------------*/
 
+#myModal .mySlides img{
+  width: 100%;
+
+}
+.w-195 img{
+  width: 195px;
+}
+#myModal .slick-line{
+  width: 100%;
+}
 .w-825{
     width: 825px;
 }
@@ -274,7 +291,7 @@ thead th{
  #myModal .close {
   color: white;
   position: absolute;
-  top: 100px;
+  top: 63px;
   right: 240px;
   font-size: 35px;
   font-weight: bold;

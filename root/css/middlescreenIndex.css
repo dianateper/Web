@@ -1,0 +1,47 @@
+.mycontainer{
+	width: 90%;
+}
+.smallcontainer{
+	width: 100%;
+}
+
+.article-section article{
+	width: 280px;
+
+}
+.carousel-control-prev {
+    left: -50px;
+}
+.carousel-control-next {
+    right: -50px;
+}
+article h5{
+font-size: 18px;
+line-height: 22px;
+}
+
+.carousel-caption p{
+	display: none;
+}
+article p{
+
+font-size: 18px;
+line-height: 23px;
+
+}
+.slick-slide {
+	height: 400px;
+}
+
+#page-3 img{
+  width: 400px;
+
+}
+
+#page-3 .f-r{
+	float: left;
+}
+
+.map-photo{
+	display: none;
+}

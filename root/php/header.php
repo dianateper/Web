@@ -6,6 +6,7 @@
 		<div class="mycontainer myrow  navigator">
 			<nav>
 				<ul>
+
 				<li class="logo"><a href="index.php">YC</a></li>
 				<li class="nav-list d-n"><a href="yachtFind.php">Yachts</a></li>
 				<li class="nav-list d-n"><a href="yachtFind.php">Find</a></li>

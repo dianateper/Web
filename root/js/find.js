@@ -34,11 +34,12 @@ $(document).ready(function () {
         $('#specifications').slideToggle(400);
     });
 
+    ///////////////////////////////////////////////////////////////////////////SLIDER
     $(function slider() {
         $("#carouselFind .item-slider:first-child").addClass("active").animate({ 'width': '650px' }, 0);
 
         function currentSlide(target) {
-            $("#carouselFind .item-slider").animate({ 'width': '470px', 'right': 510 * target + 'px' }, 400);
+            $("#carouselFind .item-slider").animate({ 'width': '470px', 'right': 500 * target + 'px' }, 400);
             $("#carouselFind .item-slider").removeClass("active").eq(target).addClass("active").animate({ 'width': '650px' }, 400);
         }
 

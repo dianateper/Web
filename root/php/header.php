@@ -6,10 +6,9 @@
 		<div class="mycontainer myrow  navigator">
 			<nav>
 				<ul>
-
-				<li class="logo"><a href="index.php">YC</a></li>
-				<li class="nav-list d-n"><a href="yachtFind.php">Yachts</a></li>
-				<li class="nav-list d-n"><a href="yachtFind.php">Find</a></li>
+				<li class="logo"><a href="">YC</a></li>
+				<li class="nav-list"><a href="">Yachts</a></li>
+				<li class="nav-list"><a href="">Find</a></li>
 			</ul>
 			</nav>
 			<div class="sing-buttons nav-list">

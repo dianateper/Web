@@ -153,16 +153,13 @@ $(document).ready(function() {
 		    
 					$('.responsive').slick({
 					dots: false,
-
 					infinite: true,
 					speed: 300,
 					slidesToShow: 4,
 					slidesToScroll: 4,
-					autoplay:true,
+					  
  					prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/yacht_detail/dotes_left.png'>",
  					nextArrow:"<img class='a-right control-c next slick-next' src='../img/yacht_detail/dotes_right.png'>",
-					
-
 					responsive: [
 					  {
 					    breakpoint: 1024,
@@ -170,40 +167,32 @@ $(document).ready(function() {
 					    slidesToShow: 3,
 					    slidesToScroll: 3,
 					    infinite: true,
-					    dots: false,
-					   
-
+					    dots: false
 					   }
-					    },
-					    {
-					      breakpoint: 900,
-					      settings: {
-					        slidesToShow: 4,
-					        slidesToScroll: 4,
-					      
-					      }
 					    },
 					    {
 					      breakpoint: 600,
 					      settings: {
+					        slidesToShow: 2,
+					        slidesToScroll: 2
+					      }
+					    },
+					    {
+					      breakpoint: 480,
+					      settings: {
 					        slidesToShow: 1,
-					        slidesToScroll: 1,
-				
-					       
+					        slidesToScroll: 1
 					      }
 					    }
 					  ]
 					});
-
 		     $('.responsivertl').slick({
 		     		rtl:true,
 					dots: false,
 					infinite: true,
 					speed: 300,
-					autoplay:true,
 					slidesToShow: 4,
 					slidesToScroll: 4,
-					
 					prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/yacht_detail/dotes_right.png'>",
  					nextArrow:"<img class='a-right control-c next slick-next' src='../img/yacht_detail/dotes_left.png'>",
 					responsive: [
@@ -217,21 +206,17 @@ $(document).ready(function() {
 					   }
 					    },
 					    {
-					      breakpoint: 900,
+					      breakpoint: 600,
 					      settings: {
-					        slidesToShow: 4,
-					        slidesToScroll: 4,
-					       
+					        slidesToShow: 2,
+					        slidesToScroll: 2
 					      }
 					    },
 					    {
-					      breakpoint: 600,
+					      breakpoint: 480,
 					      settings: {
 					        slidesToShow: 1,
-					        slidesToScroll: 1,
-					       
-					       
-					       
+					        slidesToScroll: 1
 					      }
 					    }
 					  ]
@@ -243,6 +228,7 @@ $(document).ready(function() {
 
 			         
 		    });
+
 
 
 
@@ -294,4 +280,3 @@ $(document).ready(function() {
  						nextArrow:"<img class='a-right control-c next slick-next' src='../img/yacht_detail/arrow_right.png'>",
 					  });
 					});
-

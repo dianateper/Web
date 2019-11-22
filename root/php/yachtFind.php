@@ -12,12 +12,12 @@
 	<link rel="stylesheet" href="..\css\style.css" type="text/css">
     <link rel="stylesheet" href="../css/yachtFind.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div>
 		<?php include 'header.php';?>		
-	</div>
+    </div>
     <!--------------------------------------END Header------------------------------------------------------------->
     <section class="yachts">
         <div class="yachts-text yachts-text1">YACHTS</div>
@@ -29,44 +29,52 @@
             </div>
             <div>
                 <div id="carouselFind">
-                    <div class="carousel">
-                        <div class="item-slider">                                  
+                    <div class="carousel pb-4">
+                        <div class="item-slider active">                                  
                             <img src="../img/Marinette/Mariette.png" class="d-block w-100 mb-3" alt="">
                             <div class="flex mb-1 slider-caption"><div>1987 Marinette 41 Aft Cabin</div><div>$230.000</div></div>
                             <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
                             <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
-                            <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            <div class="flex"><i></i><a href="#" class="slider-link">Rent it!</a></div>
                         </div>
                         <div class="item-slider">   
                             <img src="../img/Marquis/Marquis.png" class="d-block w-100 mb-3" alt="">
                             <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
                             <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
                             <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
-                            <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            <div class="flex"><i></i><a href="#" class="slider-link">Rent it!</a></div>
                         </div>
                         <div class="item-slider">   
                             <img src="../img/Princess/Princess.png" class="d-block w-100 mb-3" alt="">
-                            <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                            <div class="flex mb-1 slider-caption"><div>2003 Princess 23 Skylounge</div><div>$230.000</div></div>
                             <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
                             <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
-                            <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            <div class="flex"><i></i><a href="" class="slider-link">Rent it!</a></div>
                         </div>
                         <div class="item-slider">   
                             <img src="../img/Cruisers/Cruisers.png" class="d-block w-100 mb-3" alt="">
-                            <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                            <div class="flex mb-1 slider-caption"><div>2002 Cruisers 60 Skylounge</div><div>$230.000</div></div>
                             <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
                             <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
-                            <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            <div class="flex"><i></i><a href="#" class="slider-link">Rent it!</a></div>
                         </div>
                         <div class="item-slider">   
                             <img src="../img/Lazzara/Lazzara.png" class="d-block w-100 mb-3" alt="">
-                            <div class="flex mb-1 slider-caption"><div>2008 Marquis 65 Skylounge</div><div>$230.000</div></div>
+                            <div class="flex mb-1 slider-caption"><div>2006 Lazzara 30 Skylounge</div><div>$230.000</div></div>
                             <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
                             <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
-                            <div class="flex"><div></div><a href="" class="slider-link">Rent it!</a></div>
+                            <div class="flex"><i></i><a href="#" class="slider-link">Rent it!</a></div>
+                        </div>
+                        <div class="item-slider">   
+                            <img src="../img/Californian/Californian.png" class="d-block w-100 mb-3" alt="">
+                            <div class="flex mb-1 slider-caption"><div>2000 Californian 5 Skylounge</div><div>$230.000</div></div>
+                            <div class="flex mb-1 slider-description"><div>Category:</div><div>Power</div></div>
+                            <div class="flex mb-3 slider-description"><div>Boat Type:</div><div>Motor Yacht</div></div>
+                            <div class="flex"><i></i><a href="#" class="slider-link">Rent it!</a></div>
                         </div>
                     </div>
                 </div>
+                <div id="modal-container"></div>
                 <div class="yachts-flex">
                     <a class="control" href="#" id="prev"><span class="control-arrow"><</span>&bull;&bull;&bull;&#8195;Previous</a>
                     <a class="control" href="#" id="next">Next&#8195;&bull;&bull;&bull;<span class="control-arrow">></span></a>
@@ -78,7 +86,7 @@
     <section class="find">
         <div class="containerY">
             <div class="find-caption caption">FIND YOUR CHOICE</div>
-            <form action="">
+            <form action="" class="find-form-flex">
                 <label for="search" class="yachts-flex label position-relative">
                     You can search by name
                     <input type="text" name="search" class="input input-1 form-search">
@@ -102,8 +110,8 @@
                         <option>Tortor pellentesque vestibulum</option>
                     </select>
                 </label>
-                <div class="yachts-flex align-items-center mb-4">
-                    <a href="#" id="btn-hide" class="btn-hide">&bull;&bull;&bull;<span class="control-arrow">></span>&#8195;<span id="text-hide">Show</span>&nbsp;filters by specifications</a>
+                <div class="yachts-flex yachts-flex-btn align-items-center mb-4">
+                    <a href="#" id="btn-hide" class="btn-hide">&bull;&bull;&bull;<span class="control-arrow">></span>&#8195;<span id="text-hide">Show</span>&ensp;filters by specifications</a>
                     <button type="submit" id="form-btn" class="form-btn">FIND!</button>
                 </div>
 
@@ -241,12 +249,12 @@
     <!----------------------------------------------------FOOTER----------------------------------------------------------------->
 	<div>
 		<?php include 'footer.php';?>	
-	</div>
+    </div> 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="../js/find.js"></script>
+    <script src="../js/modalFind.js"></script>
 </body>
 </html>

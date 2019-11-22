@@ -34,12 +34,19 @@ $(document).ready(function () {
         $('#specifications').slideToggle(400);
     });
 
+    //////////////////////////////////////////////SLIDER////////////////////////////////////////
     $(function slider() {
-        $("#carouselFind .item-slider:first-child").addClass("active").animate({ 'width': '650px' }, 0);
+        function currentSlide(target, width) {
+            $("#carouselFind .item-slider").animate({ 'right': width * target + '%' }, 400);
+            $("#carouselFind .item-slider").removeClass("active").eq(target).addClass("active");
+        }
 
-        function currentSlide(target) {
-            $("#carouselFind .item-slider").animate({ 'width': '470px', 'right': 510 * target + 'px' }, 400);
-            $("#carouselFind .item-slider").removeClass("active").eq(target).addClass("active").animate({ 'width': '650px' }, 400);
+        function screenWidth() {
+            if($(document).width() <= 770) {
+                return 16.67;
+            } else {
+                return 16.2;
+            }
         }
 
         $("#prev").click(function (e) {
@@ -51,7 +58,8 @@ $(document).ready(function () {
             else {
                 target = target - 1;
             }
-            currentSlide(target);
+            let width = screenWidth();
+            currentSlide(target, width);
         });
 
         $("#next").click(function (e) {
@@ -63,7 +71,8 @@ $(document).ready(function () {
             else {
                 target = target + 1;
             }
-            currentSlide(target);
+            let width = screenWidth();
+            currentSlide(target, width);
         });
     });
 });

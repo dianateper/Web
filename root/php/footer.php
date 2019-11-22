@@ -11,8 +11,6 @@
 				<ul>
 					<li><a href="">Yachts</a></li>
 					<li><a href="">Find your choice</a></li>
-					<li class="d-n"><a href="">Sing in</a></li>
-					<li class="d-n"><a href="">Sing up</a></li>
 				</ul>
 			</div>
 			<div class="contact">

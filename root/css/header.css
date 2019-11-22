@@ -7,7 +7,7 @@ header{
 	font-family: Open Sans;
 }
 nav ul{
-
+	float:left;
 	display: flex;
 }
 nav li{
@@ -25,6 +25,7 @@ nav a{
 }
 .sing-buttons{
 	display: flex;
+	float: right;
 	font-size: 20px;
 	line-height: 24px;
 	order: 1;

@@ -16,9 +16,8 @@
     	<link rel="stylesheet" type="text/css" href="../css/datepicker/lightpick.css">
 
 
-		<link rel="stylesheet" type="text/css" href="../css/slick181/slick//slick.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/slick181/slick/slick-theme.css"/>
-
+		<link rel="stylesheet" type="text/css" href="../css/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/slick/slick-theme.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.css">
 
 		<link rel="stylesheet" href="..\css\reset.css" type="text/css"/>
@@ -26,12 +25,8 @@
 		<link rel="stylesheet" href="..\css\footer.css" type="text/css"/>
 		<link rel="stylesheet" href="..\css\style.css" type="text/css">
 		<link rel="stylesheet" href="..\css\yacht_detail.css" type="text/css">
+		
 
-
-		<link media="only screen and (max-width: 600px)" rel="stylesheet" href="../css/smallscreenyachtdetail.css"/>
-		<link media="only screen and (max-width: 600px)" rel="stylesheet" href="../css/footerheadersmall.css"/>
-		<link media="only screen and (min-width: 601px) and (max-width: 1024px)" rel="stylesheet" href="../css/middlescreenyachtdetail.css"/>
-		<link media="only screen and (min-width: 601px) and (max-width: 1024px)" rel="stylesheet" href="../css/footerheadersmiddle.css"/>
 
 	<body>
 		<!--------------------------------------Header------------------------------------------------------------->
@@ -108,10 +103,10 @@
 			<div class="small-container">
 				<div class="yacht-detail-slide myrow">
 						 <nav>
-						        <h5><a href="#page-1" class="scrollitem"><img small-menu src="../img/yacht_detail/vector.png" alt=""></img>Description</a></h5>
-						        <h5><a href="#page-2" class="scrollitem"><img small-menu src="../img/yacht_detail/vector.png" alt="">Specifications</a></h5>
-						        <h5><a href="#page-3" class="scrollitem"><img small-menu src="../img/yacht_detail/vector.png" alt="">Gallery</a></h5>
-						        <h5><a href="#page-4" class="scrollitem"><img small-menu src="../img/yacht_detail/vector.png" alt="">Rent</a></h5>
+						        <h5><a href="#page-1" class="scrollitem">Description</a></h5>
+						        <h5><a href="#page-2" class="scrollitem">Specifications</a></h5>
+						        <h5><a href="#page-3" class="scrollitem">Gallery</a></h5>
+						        <h5><a href="#page-4" class="scrollitem">Rent</a></h5>
 
 						    </nav>
 						    <a href=""><img  alt="" id="slide-arrow" src="..\img\yacht_detail\line_dotes1.png"></a>
@@ -227,7 +222,6 @@
 						        		<td></td>
 						        		<td></td>
 						        	</tr>
-
 						        	<thead><tr><th  colspan="4">Tank capacities</th></tr></thead>
 						        	<tr>
 						        		<td>Fuel Tank:</td>
@@ -244,6 +238,7 @@
 						        		<td>73 gallons - 1 tank(s)</td>
 						        		
 						        	</tr>
+
 						        	<thead><tr><th  colspan="4">Accommodations</th><tr></thead>
 						        	<tr>
 						        		<td>Total Cabins:</td>
@@ -276,244 +271,48 @@
 						        		<td></td>
 						        	</tr>
 						        	</table>
-						        	<table class="yacht-detail-table-small">
-						        		<thead><tr>
-						        			<th  colspan="2">Basic information</th><tr>
-						        		</thead>
-						        			<tbody>
-						        				<tr>
-						        					<td>Manufacturer:</td>
-						        					<td>Princess</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Model:</td>
-						        					<td>V62-S</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Year:</td>
-						        					<td>2015</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Category:</td>
-						        					<td>Power</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Condition:</td>
-						        					<td>Used</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Vessel Name:</td>
-						        					<td>SWEPT AWAY</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Boat Type:</td>
-						        					<td>Motor Yacht</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Hull Material:</td>
-						        					<td>Fiberglass</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Hull Color:</td>
-						        					<td>Navy blue</td>
-						        				</tr>
-						        				<tr>
-						        					<td>HIN:</td>
-						        					<td>VSC621301415</td>
-						        				</tr>
-						        			</tbody>
-						        			<thead>
-						        				<tr>
-						        					<th  colspan="2">Dimensions & Weight
-						        					</th></tr>
-						        				</thead>
-						        				<tbody>
-							        				<tr>
-							        					<td>Length:</td>
-							        					<td>62 ft - 18.9 meter</td>
-							        				</tr>
-							        				<tr>
-							        					<td>LOA:</td>
-							        					<td>63 ft 6 in - 19.35 meter</td>
-							        				</tr>
-							        				<tr>
-							        					<td>Beam:</td>
-							        					<td>16 ft 5 in - 5 meter</td>
-							        				</tr>
-							        				<tr>
-							        					<td>Draft - max:</td>
-							        					<td>-</td>
-							        				</tr>
-							        				<tr>
-							        					<td>Bridge Clearance:</td>
-							        					<td>-</td>
-							        				</tr>
-							        				<tr>
-							        					<td>Dry Weight:</td>
-							        					<td>-</td>
-							        				</tr>
-						        				</tbody>
-						        				<thead>
-						        				<tr>
-						        					<th  colspan="2">Engine
-						        					</th>
-						        				</tr>
-						        				</thead>
-						        				<tbody>
-						        					<tr>
-						        						<td>Make:</td>
-						        						<td>Caterpillar</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Model:</td>
-						        						<td>C-18 Acert</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Engine(s):</td>
-						        						<td>2</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Hours:</td>
-						        						<td>350</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Cruise Speed:</td>
-						        						<td>-</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Range:</td>
-						        						<td>-</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Joystick Control:</td>
-						        						<td>No</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Engine Type:</td>
-						        						<td>Inboard</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Drive Type:</td>
-						        						<td></td>
-						        					</tr>
-						        					<tr>
-						        						<td>Fuel Type:</td>
-						        						<td>Diesel</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Horsepower:</td>
-						        						<td>1150 (individual), 2300 (combined)</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Max Speed:</td>
-						        						<td>-</td>
-						        					</tr>
-						        				</tbody>
-						        				<thead>
-						        				<tr>
-						        					<th  colspan="2">Tank capaties
-						        					</th>
-						        				</tr>
-						        				</thead>
-						        				<tbody>
-						        					<tr>
-						        						<td>Fuel Tank: </td>
-						        						<td>900 gallons - 1 tank(s)</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Fresh Water Tank:</td>
-						        						<td>130 gallons - 1 tank(s)</td>
-						        					</tr>
-						        					<tr>
-						        						<td>Holding Tank:</td>
-						        						<td>73 gallons - 1 tank(s)</td>
-						        					</tr>
-						        				</tbody>
-						        				<thead>
-						        				<tr>
-						        					<th  colspan="2">Accommodations
-						        					</th>
-						        				</tr>
-						        				</thead>
-						        				<tr>
-						        					<td>Total Cabins:</td>
-						        					<td>3</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Total Berths:</td>
-						        					<td>2</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Total Sleeps:</td>
-						        					<td>1</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Total Heads:</td>
-						        					<td>2</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Captains Cabin:</td>
-						        					<td>No</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Crew Cabin:</td>
-						        					<td>-</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Crew:</td>
-						        					<td>-</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Crew Sleeps:</td>
-						        					<td>-</td>
-						        				</tr>
-						        				<tr>
-						        					<td>Crew Heads:</td>
-						        					<td>-</td>
-						        				</tr>
-						        	</table>
 						        </div>
 						    </div>
  <!--------------------------------------------------------------------PAGE 3 ------------------------------------------------------------------->	
 						    <div id="page-3" class="page page-hide small-container"> 
 						       						 	
 								 <div>
-								 	<div class="w-195 responsive f-l w-825">
+								 	<div class=" responsive f-l w-825">
 										<div>
-									  <img src="../img/Princess/Princess.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+									  <img src="../img/Princess/Princess.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_1.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_1.png" onclick="openModal();currentSlide(2)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_2.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_2.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_3.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_3.png" onclick="openModal();currentSlide(4)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_4.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_4.png" onclick="openModal();currentSlide(5)" class="hover-shadow" width="195px">
 									  </div>
 									 <div>
-									    <img src="../img/Princess/Princess_5.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_5.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_6.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_6.png" onclick="openModal();currentSlide(7)" class="hover-shadow" width="195px">
 									  </div>
 									 <div>
-									    <img src="../img/Princess/Princess_7.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_7.png" onclick="openModal();currentSlide(8)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_8.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_8.png" onclick="openModal();currentSlide(9)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_9.png" onclick="openModal();currentSlide(10)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_9.png" onclick="openModal();currentSlide(10)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_10.png" onclick="openModal();currentSlide(11)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_10.png" onclick="openModal();currentSlide(11)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_11.png" onclick="openModal();currentSlide(12)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_11.png" onclick="openModal();currentSlide(12)" class="hover-shadow" width="195px">
 									  </div>
 								</div>
 							</div>
@@ -673,82 +472,82 @@
 			
 
 						     
-									<div class="w-195 responsivertl f-r w-825" dir="rtl">
+									<div class=" responsivertl f-r w-825" dir="rtl">
 										 <div>
-									  <img src="../img/Princess/Princess.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+									  <img src="../img/Princess/Princess.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_1.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_1.png" onclick="openModal();currentSlide(2)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_2.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_2.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_3.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_3.png" onclick="openModal();currentSlide(4)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_4.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_4.png" onclick="openModal();currentSlide(5)" class="hover-shadow" width="195px">
 									  </div>
 									 <div>
-									    <img src="../img/Princess/Princess_5.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_5.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_6.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_6.png" onclick="openModal();currentSlide(7)" class="hover-shadow" width="195px">
 									  </div>
 									 <div>
-									    <img src="../img/Princess/Princess_7.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_7.png" onclick="openModal();currentSlide(8)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_8.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_8.png" onclick="openModal();currentSlide(9)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_9.png" onclick="openModal();currentSlide(10)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_9.png" onclick="openModal();currentSlide(10)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_10.png" onclick="openModal();currentSlide(11)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_10.png" onclick="openModal();currentSlide(11)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_11.png" onclick="openModal();currentSlide(12)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_11.png" onclick="openModal();currentSlide(12)" class="hover-shadow" width="195px">
 									  </div>
 									</div>
 						        
 						        
-									<div class="w-195 responsive f-l w-825">
+									<div class="responsive f-l w-825">
 									 <div>
-									  <img src="../img/Princess/Princess.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+									  <img src="../img/Princess/Princess.png" onclick="openModal();currentSlide(1)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_1.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_1.png" onclick="openModal();currentSlide(2)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_2.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_2.png" onclick="openModal();currentSlide(3)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_3.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_3.png" onclick="openModal();currentSlide(4)" class="hover-shadow" width="195px">
 									  </div>
 									  <div>
-									    <img src="../img/Princess/Princess_4.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
-									  </div>
-									 <div>
-									    <img src="../img/Princess/Princess_5.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
-									  </div>
-									  <div>
-									    <img src="../img/Princess/Princess_6.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_4.png" onclick="openModal();currentSlide(5)" class="hover-shadow" width="195px">
 									  </div>
 									 <div>
-									    <img src="../img/Princess/Princess_7.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_5.png" onclick="openModal();currentSlide(6)" class="hover-shadow" width="195px">
+									  </div>
+									  <div>
+									    <img src="../img/Princess/Princess_6.png" onclick="openModal();currentSlide(7)" class="hover-shadow" width="195px">
+									  </div>
+									 <div>
+									    <img src="../img/Princess/Princess_7.png" onclick="openModal();currentSlide(8)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_8.png" onclick="openModal();currentSlide(9)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_8.png" onclick="openModal();currentSlide(9)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_9.png" onclick="openModal();currentSlide(10)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_9.png" onclick="openModal();currentSlide(10)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_10.png" onclick="openModal();currentSlide(11)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_10.png" onclick="openModal();currentSlide(11)" class="hover-shadow" width="195px">
 									  </div>
 									   <div>
-									    <img src="../img/Princess/Princess_11.png" onclick="openModal();currentSlide(12)" class="hover-shadow">
+									    <img src="../img/Princess/Princess_11.png" onclick="openModal();currentSlide(12)" class="hover-shadow" width="195px">
 									  </div>
 
 						      		  </div>
